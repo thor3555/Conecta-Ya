@@ -1,0 +1,31 @@
+///
+///
+@use "assets/header";
+@use "assets/variables" as v;
+
+
+@use "pag-1/pag-1" as pag1;
+///
+ 
+/// 
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white !important; /* Bootstrap tiene una clase que superpone esta orden */
+    main{
+        padding-top: 130px;
+        background-color: v.$fondo;
+    }
+    /* Desktop */
+    @media (min-width: 900px) {
+        main{
+            padding-top: 170px;
+        }
+    }
+}
+/// 

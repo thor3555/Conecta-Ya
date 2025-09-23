@@ -1,0 +1,69 @@
+///
+@use '../assets/variables' as v;
+/// 
+
+section{
+    img{
+        width: 70%;
+        display: block;
+        margin: 0px auto;
+    }
+
+    .hero-text{
+        background-color: v.$cards;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 0px 20px 0px 20px;
+        border: v.$botones 1px solid;
+        width: 90%;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+        p{
+            color: v.$botones;
+            font-family: v.$fuente-secundaria;
+            font-size: 15px;
+            font-weight: 600;
+            text-align: center;
+        }
+        div {
+            background-color: v.$letras;
+            width: 50%;
+            border-radius: 10px;
+            height: 56px;
+            margin: 0 auto;
+
+            display: flex;            // <- activás flexbox
+            align-items: center;      // centra verticalmente
+            justify-content: center;  // centra horizontalmente
+
+            img {
+                width: 120px;
+                display: block;
+            }
+        }
+
+    }
+
+    .hero-buttons{
+        text-align: center;
+        a{
+            display: inline-block;
+            font-family: v.$fuente-secundaria;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            color: v.$letras;
+            background-color: v.$botones;
+            padding: 15px 30px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            &:hover{
+                background-color: v.$letras;
+                color: v.$botones;
+                border: v.$botones 1px solid;
+            }
+        } 
+    }
+}

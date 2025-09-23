@@ -1,0 +1,50 @@
+///
+@use 'variables' as v;
+/// 
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    
+    nav{
+        padding: 0 !important;
+
+        div{
+            background-color: v.$cards !important; /* Bootstrap tiene una clase que superpone esta orden */
+            padding: 20px 20px !important;
+            a{
+                color: v.$letras !important; /* Bootstrap tiene una clase que superpone esta orden */
+                font-family: "Rubik", sans-serif !important;
+                font-weight: 700 !important;
+                font-size: 24px !important;
+                font-style: normal  !important;
+            }
+            
+            button{
+                background-color: #1E90FF !important; /* Bootstrap tiene una clase que superpone esta orden */
+                &:hover{
+                    background-color: v.$letras !important; /* Bootstrap tiene una clase que superpone esta orden */
+                }
+            }
+
+            div{
+                
+                div{
+                    padding-top: 0px !important;
+                    padding-bottom: 0px !important;
+                    a{
+                        text-align: center;
+                        color: v.$letras !important; /* Bootstrap tiene una clase que superpone esta orden */
+                        font-family: "Rubik", sans-serif !important;
+                        font-weight: 500 !important;
+                        font-size: 18px !important;
+                        font-style: normal  !important;
+                    }
+                }
+                
+            }
+        }
+    }
+}
