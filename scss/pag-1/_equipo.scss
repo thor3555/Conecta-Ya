@@ -3,6 +3,8 @@
 /// 
 
 .equipo-seccion{
+    background-color: v.$letras;
+    overflow: hidden; /* rompe el colapso */
 
     h2{
         text-align: center;

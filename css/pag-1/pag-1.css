@@ -209,12 +209,17 @@ code {
   margin: 0 auto;
   text-align: center;
   border-radius: 15px;
+  transition: all 0.5s ease-in-out;
 }
 .publicidad-darox-web .publicidad-text .publicidad-button a {
   color: #47F59A;
   font-family: "Rubik Mono One", monospace;
   text-decoration: none;
   font-size: 16px;
+}
+.publicidad-darox-web .publicidad-text .publicidad-button:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
 }
 
 .importancias {
@@ -286,6 +291,7 @@ code {
 }
 
 .tecnologias {
+  background-color: #FCFDFF;
   padding: 70px 20px 90px 20px;
 }
 .tecnologias h2 {
@@ -363,11 +369,17 @@ code {
   font-weight: 600;
   color: #2D63F7;
   text-decoration: none;
+  transition: all 0.5s ease-in-out;
 }
 .tecnologias a:hover {
   text-decoration: underline;
+  transform: scale(1.1);
 }
 
+.equipo-seccion {
+  background-color: #FCFDFF;
+  overflow: hidden; /* rompe el colapso */
+}
 .equipo-seccion h2 {
   text-align: center;
   font-size: 34px;
@@ -415,24 +427,27 @@ code {
   text-align: start;
 }
 
-.footer-conecta-ya {
+.footer-wrapper {
+  background-color: #FCFDFF;
+}
+.footer-wrapper .footer-conecta-ya {
+  padding: 20px 0px;
   background-color: #1D232E;
-  padding: 20px 0px 10px 0px;
   border-radius: 20px 20px 0px 0px;
 }
-.footer-conecta-ya img {
+.footer-wrapper .footer-conecta-ya img {
   max-width: 100px;
   display: block;
   margin: 0 auto;
 }
-.footer-conecta-ya p {
+.footer-wrapper .footer-conecta-ya p {
   color: #FCFDFF;
   font-family: "Rubik", sans-serif;
   text-align: center;
   font-weight: 600;
   margin-top: 10px;
 }
-.footer-conecta-ya p code a {
+.footer-wrapper .footer-conecta-ya p code a {
   color: inherit; /* mantiene el color del code */
   text-decoration: none; /* quita subrayado */
 }

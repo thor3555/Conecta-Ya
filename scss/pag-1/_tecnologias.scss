@@ -3,6 +3,7 @@
 ///
 
 .tecnologias{
+    background-color: v.$letras;
 
     padding: 70px 20px 90px 20px;
 
@@ -91,9 +92,11 @@
         font-weight: 600;
         color: v.$botones;
         text-decoration: none;
+        transition: all 0.5s ease-in-out;
 
         &:hover{
             text-decoration: underline;
+            transform: scale(1.1);
         }
     }
 

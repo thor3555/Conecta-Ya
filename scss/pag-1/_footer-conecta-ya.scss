@@ -2,30 +2,34 @@
 @use "../assets/variables" as v;
 /// 
 
-.footer-conecta-ya{
-    background-color: v.$cards;
-    padding: 20px 0px 10px 0px;
-    border-radius: 20px 20px 0px 0px;
-    
-    img{
-        max-width: 100px;
-        display: block;
-        margin: 0 auto;
-    }
-    p{
-        color: v.$letras;
-        font-family: v.$fuente-principal;
-        text-align: center;
-        font-weight: 600;
-        margin-top: 10px;
-        
-        code{
+.footer-wrapper{
+    background-color: v.$letras;
+
+    .footer-conecta-ya{
+        padding: 20px 0px;
+        background-color: v.$cards;
+        border-radius: 20px 20px 0px 0px;
+
+        img{
+            max-width: 100px;
+            display: block;
+            margin: 0 auto;
+        }
+        p{
+            color: v.$letras;
+            font-family: v.$fuente-principal;
+            text-align: center;
+            font-weight: 600;
+            margin-top: 10px;
+
+            code{
+                
+                a{
+                    color: inherit;       /* mantiene el color del code */
+                    text-decoration: none; /* quita subrayado */
+                }
             
-            a{
-                color: inherit;       /* mantiene el color del code */
-                text-decoration: none; /* quita subrayado */
             }
-        
         }
     }
 }

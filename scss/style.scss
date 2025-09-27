@@ -15,8 +15,25 @@
     box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+section {
+    scroll-margin-top: 80px; /* altura del header fijo */
+    padding-top: 60px; /* extra para no cortar contenido */
+}
+
+.nav-link.active {
+  color: v.$botones !important; // asegúrate de usar !important si Bootstrap overridea
+  font-weight: bold;
+}
+
+
+
+
+
 body {
-    background-color: white !important; /* Bootstrap tiene una clase que superpone esta orden */
+    background-color: v.$cards !important; /* Bootstrap tiene una clase que superpone esta orden */
     main{
         padding-top: 130px;
         background-color: v.$fondo;
