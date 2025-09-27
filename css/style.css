@@ -325,7 +325,7 @@ header nav div div div a {
 }
 
 .tecnologias {
-  padding: 50px 20px;
+  padding: 70px 20px 90px 20px;
 }
 .tecnologias h2 {
   font-size: 32px;
@@ -336,6 +336,144 @@ header nav div div div a {
 }
 .tecnologias p {
   text-align: center;
+}
+.tecnologias .tecnologias-logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+.tecnologias .tecnologias-logos .logo-tec-img:hover {
+  transform: scale(1.1);
+}
+.tecnologias .tecnologias-logos .logo-tec-img {
+  transition: all 0.3s ease-in-out;
+  /* Colores de los fondos de los logos */
+}
+.tecnologias .tecnologias-logos .logo-tec-img:nth-child(1) {
+  background-color: rgba(29, 35, 46, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+}
+.tecnologias .tecnologias-logos .logo-tec-img:nth-child(2) {
+  background-color: #2D63F7;
+  padding: 15px;
+  border-radius: 10px;
+}
+.tecnologias .tecnologias-logos .logo-tec-img:nth-child(3) {
+  background-color: rgba(29, 35, 46, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+}
+.tecnologias .tecnologias-logos .logo-tec-img:nth-child(4) {
+  background-color: #2D63F7;
+  padding: 15px;
+  border-radius: 10px;
+}
+.tecnologias .tecnologias-logos .logo-tec-img:nth-child(5) {
+  background-color: #2D63F7;
+  padding: 15px;
+  border-radius: 10px;
+}
+.tecnologias .tecnologias-logos .logo-tec-img:nth-child(6) {
+  background-color: rgba(29, 35, 46, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+}
+.tecnologias .tecnologias-logos .logo-tec-img:nth-child(7) {
+  background-color: #2D63F7;
+  padding: 15px;
+  border-radius: 10px;
+}
+.tecnologias .tecnologias-logos .logo-tec-img:nth-child(8) {
+  background-color: rgba(29, 35, 46, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+}
+.tecnologias .tecnologias-logos .logo-tec-img img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.tecnologias a {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 600;
+  color: #2D63F7;
+  text-decoration: none;
+}
+.tecnologias a:hover {
+  text-decoration: underline;
+}
+
+.equipo-seccion h2 {
+  text-align: center;
+  font-size: 34px;
+  color: #030A17;
+}
+.equipo-seccion p {
+  text-align: center;
+  font-size: 18px;
+  color: #030A17;
+  margin-bottom: 40px;
+}
+.equipo-seccion img {
+  display: block;
+  width: 80%;
+  height: 150px;
+  margin: 30px auto;
+  background-color: #030A17;
+  border-radius: 10px;
+  padding: 2px;
+}
+.equipo-seccion .equipo-miembros-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
+  margin: 60px 20px;
+}
+.equipo-seccion .equipo-miembros-grid .miembros-equipo:nth-child(7) {
+  grid-area: 4/1/4/3;
+}
+.equipo-seccion .equipo-miembros-grid .miembros-equipo:nth-child(even) h3 {
+  text-align: end;
+}
+.equipo-seccion .equipo-miembros-grid .miembros-equipo:nth-child(even) p {
+  text-align: end;
+}
+.equipo-seccion .equipo-miembros-grid .miembros-equipo h3 {
+  font-family: "Rubik Mono One", monospace;
+  font-size: 20px;
+  text-align: start;
+}
+.equipo-seccion .equipo-miembros-grid .miembros-equipo p {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  text-align: start;
+}
+
+.footer-conecta-ya {
+  background-color: #1D232E;
+  padding: 20px 0px 10px 0px;
+  border-radius: 20px 20px 0px 0px;
+}
+.footer-conecta-ya img {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+.footer-conecta-ya p {
+  color: #FCFDFF;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.footer-conecta-ya p code a {
+  color: inherit; /* mantiene el color del code */
+  text-decoration: none; /* quita subrayado */
 }
 
 /* Reset CSS */

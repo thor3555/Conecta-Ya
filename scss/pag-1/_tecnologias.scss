@@ -4,7 +4,7 @@
 
 .tecnologias{
 
-    padding: 50px 20px;
+    padding: 70px 20px 90px 20px;
 
     h2{
         font-size: 32px;
@@ -17,5 +17,84 @@
         text-align: center;
     }
 
+    .tecnologias-logos{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 20px;
+
+        .logo-tec-img:hover{
+            transform: scale(1.1);
+            
+        }
+
+        .logo-tec-img{
+
+            transition: all 0.3s ease-in-out;
+
+            /* Colores de los fondos de los logos */
+            &:nth-child(1){
+                background-color: rgba(v.$cards, 0.9);
+                padding: 15px;
+                border-radius: 10px;
+            }
+            &:nth-child(2){
+                background-color: v.$botones;
+                padding: 15px;
+                border-radius: 10px;
+            }
+            &:nth-child(3){
+                background-color: rgba(v.$cards, 0.9);
+                padding: 15px;
+                border-radius: 10px;
+            }
+            &:nth-child(4){
+                background-color: v.$botones;
+                padding: 15px;
+                border-radius: 10px;
+            }
+            &:nth-child(5){
+                background-color: v.$botones;
+                padding: 15px;
+                border-radius: 10px;
+            }
+            &:nth-child(6){
+                background-color: rgba(v.$cards, 0.9);
+                padding: 15px;
+                border-radius: 10px;
+            }
+            &:nth-child(7){
+                background-color: v.$botones;
+                padding: 15px;
+                border-radius: 10px;
+            }
+            &:nth-child(8){
+                background-color: rgba(v.$cards, 0.9);
+                padding: 15px;
+                border-radius: 10px;
+            }
+
+
+            img{
+                max-width: 100%;
+                display: block;
+                margin: 0 auto;
+            }
+            
+        }
+    }
+
+    a{
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+        font-weight: 600;
+        color: v.$botones;
+        text-decoration: none;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
 
 }
