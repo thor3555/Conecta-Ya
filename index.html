@@ -15,11 +15,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+  
   </head>
   <body>
 
@@ -56,8 +57,8 @@
     <main>
 
       <!-- Hero Section -->
-      <section class="container-fluid">
-        <h1 class="visually-hidden">Llamada a la acción principal</h1> <!-- <section> debería idealmente tener un título aunque sea visually-hidden, esto mejora el seo-->
+      <section class="container-fluid home-conecta-ya">
+        
         <img src="/assets/img/hanover.png" alt="Logo de Conecta-Ya">
         
         <div class="hero-text">
@@ -74,12 +75,12 @@
       </section>
 
       <!-- Presentación del Proyecto -->
-      <section>
-
+      <section class="container-fluid pres-proyecto">
+        <h1>Conecta Ya</h1>
         <h2>¿Qué es Conecta-Ya?</h2>
         <p>Conecta-Ya es un proyecto innovador desarrollado por estudiantes de la escuela Pedro Poveda en Montevideo, Uruguay. Nuestro objetivo es proporcionar soluciones prácticas y accesibles para mantener tus dispositivos electrónicos siempre cargados y listos para usar, sin importar dónde te encuentres.</p>
         
-        <h3>Nuestro Proyecto</h3>
+        <h2>Nuestro Proyecto</h2>
         <p>En la actualidad nuestra sociedad depende severamente de numerosos dispositivos electrónicos, generando múltiples problemas cuando estos se quedan sin batería; sean problemas que afectan a la sociedad o más personales, yendo desde  la incomunicación hasta el estrés, incluyendo muchos otros. Esta reciente ultra digitalización  logró grandes avances, pero a si mismo nos volvió muy dependientes. Elegimos esta problemática en específico debido a que en nuestra realidad este problema es extremadamente común: La falta de batería en dispositivos móviles puede conllevar consigo consecuencias en diversos aspectos de la vida cotidiana. Una de las situaciones más importantes ocurre bajo el marco de las emergencias médicas, donde la incapacidad de comunicarse con los servicios de emergencia puede poner en peligro la salud de cualquier persona. En situaciones de máximo riesgo, como un accidente o un problema de salud repentino, la falta de un teléfono móvil operante puede resultar mortal. La capacidad de poder realizar una llamada para pedir ayuda inmediata o contactar a un médico resulta clave en la salud de una persona, donde cada segundo cuenta.
           En el ámbito de viajes y transporte, quedarse sin batería puede generar complicaciones importantes. Durante trayectos largos, los dispositivos móviles suelen ser herramientas esenciales para acceder a mapas, coordinar encuentros o mantenerse en contacto. Perder la funcionalidad del teléfono en un lugar desconocido puede provocar ansiedad, desorientación y una sensación de vulnerabilidad.
           En el entorno laboral, la falta de batería puede impactar directamente la productividad y la comunicación con compañeros o superiores. En trabajos donde la colaboración y la comunicación constante son fundamentales, un dispositivo inutil puede generar retrasos en proyectos y complicar la coordinación del equipo. Esto es especialmente relevante en profesiones que dependen de la tecnología para operar eficientemente, como ventas, servicios o emergencias. Por estas razones es importante abordar la de falta de batería en dispositivos móviles, para evitar que estos problemas sigan sucediendo. 
@@ -88,35 +89,35 @@
       </section>
 
       <!-- Soluciones Ofrecidas -->
-      <section>
+      <section class="container-fluid soluciones-ofrecidas">
 
         <h2>Nuestas Soluciones</h2>
         
-        <div>
+        <div class="soluciones-cards">
 
-          <div> <!-- Card 1 Genrador de madera con imanes -->
+          <div class="card-soluciones-ofrecidas"> <!-- Card 1 Genrador de madera con imanes -->
             <img src="" alt="">
             <h3>Generador</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, voluptatem quo tenetur nostrum alias, ad pariatur quae praesentium quibusdam officia vel officiis. Vero accusamus alias numquam, modi temporibus ab nisi.</p>
-            <div>
+            <div class="card-sol-of-button">
               <a href="#">Hazlo Tú</a>
             </div>
           </div>
 
-          <div> <!-- Card 2 Botón SOS -->
+          <div class="card-soluciones-ofrecidas"> <!-- Card 2 Botón SOS -->
             <img src="" alt="">
             <h3>Botón SOS</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, voluptatem quo tenetur nostrum alias, ad pariatur quae praesentium quibusdam officia vel officiis. Vero accusamus alias numquam, modi temporibus ab nisi.</p>
-            <div>
+            <div class="card-sol-of-button">
               <a href="#">Hazlo Tú</a>
             </div>
           </div>
 
-          <div> <!-- Card 3 Web Conecta Ya -->
+          <div class="card-soluciones-ofrecidas"> <!-- Card 3 Web Conecta Ya -->
             <img src="" alt="">
             <h3>Web Conecta Ya</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, voluptatem quo tenetur nostrum alias, ad pariatur quae praesentium quibusdam officia vel officiis. Vero accusamus alias numquam, modi temporibus ab nisi.</p>
-            <div>
+            <div class="card-sol-of-button">
               <a href="#">Hazlo Tú</a>
             </div>
           </div>
@@ -126,33 +127,35 @@
       </section>
 
       <!-- Publicidad -->
-      <section>
+      <section class="container-fluid publicidad-darox-web">
 
         <img src="/assets/img/daroxweb-sin-fondo.png" alt="">
-        <h4>Darox Web</h4>
-        <p>Agencia de desarrollo web</p>
-        <div>
-          <a href="#">Ver Más</a>
+        <div class="publicidad-text">
+          <h4>Darox Web</h4>
+          <p>Agencia de desarrollo web</p>
+          <div class="publicidad-button">
+            <a href="#">Ver Más</a>
+          </div>
         </div>
       
       </section>
 
       <!-- Importancias -->
-      <section>
+      <section class="container-fluid importancias">
 
         <h2>Importancias</h2>
 
-        <div>
+        <div class="importancias-cards">
 
-          <div>
+          <div class="card-importancias"> 
             <h4>Conectividad</h4>
             <p>Durante trayectos largos, los dispositivos móviles suelen ser herramientas esenciales para acceder a mapas, coordinar encuentros o mantenerse en contacto. Perder la funcionalidad del teléfono en lugares desconocidos puede provocar ansiedad, desorientación y una sensación de vulnerabilidad según estudios.</p>
           </div>
-          <div>
+          <div class="card-importancias">
             <h4>Consideración</h4>
             <p>Es importante considerar cómo esta problemática afecta a grupos vulnerables, como personas mayores o aquellas con discapacidades. Para estos individuos, los dispositivos móviles son una herramienta crucial para mantenerse conectados con familiares, amigos y servicios de salud. La falta de batería puede generar una profunda sensación de vulnerabilidad, evidenciando la importancia de desarrollar soluciones efectivas para mitigar este problema.</p>
           </div>
-          <div>
+          <div class="card-importancias">
             <h4>Necesidad</h4>
             <p>Estamos en una sociedad donde la mayoría de las personas dependen del celular para comunicarse, no poder acceder a el dispositivo implicaría quedar aislado, desconectado o incluso vulnerable. Esta situación puede generar ansiedad a determinadas personas, incomodidad, frustración y en algunos casos peligro, ya que hay personas que utilizan medidores para la salud, que esto dependen de un teléfono para funcionar adecuadamente, también quitaría la posibilidad de llamar a emergencias o la posibilidad de coordinar con otras personas.</p>
           </div>
@@ -162,55 +165,33 @@
       </section>
 
       <!-- Actividades -->
-      <section>
+      <section class="container-fluid actividades-seccion">
 
-        <h3>Actividades</h3>
+        <div class="actividades">
 
-        <h4>1era actividad</h4>
-        <p>La web interactiva, diseñamos y programamos una web interactiva para informar y concientizar de nuestra problemática.</p>
+          <h3>Actividades</h3>
 
-        <h4>2nda actividad</h4>
-        <p>Será una demostración , demostraremos como funciona un de las soluciones planteadas, mediante una construcción simple de un generador casero usando un poco de cobre e imanes</p>
+          <h4>1era actividad</h4>
+          <p>La web interactiva, diseñamos y programamos una web interactiva para informar y concientizar de nuestra problemática.</p>
 
-        <h4>3era actividad</h4>
-        <p>Como tercera y última actividad vamos a realizar una construcción este dispositivo constara de un botón y un circuito que nos va a permitir al tocarlo enviar un sms a un celular con un mensaje determinado</p>
-      
-      </section>
+          <h4>2nda actividad</h4>
+          <p>Será una demostración , demostraremos como funciona un de las soluciones planteadas, mediante una construcción simple de un generador casero usando un poco de cobre e imanes</p>
 
-    </main>
-
-    <!-- Productos Relacionados -->
-      <section>
-
-        <h2>Productos Relacionados</h2>
-        <code>Esenciales para no perder el rumbo</code>
-
-        <div>
-
-          <div>
-            <img src="" alt="">
-          </div>
-
-          <div>
-            <img src="" alt="">
-          </div>
-
-          <div>
-            <img src="" alt="">
-          </div>
-
-          <div>
-            <img src="" alt="">
-          </div>
-
+          <h4>3era actividad</h4>
+          <p>Como tercera y última actividad vamos a realizar una construcción este dispositivo constara de un botón y un circuito que nos va a permitir al tocarlo enviar un sms a un celular con un mensaje determinado</p>
+        
         </div>
 
       </section>
 
+
+
+    </main>
+
     <!-- Tecnologías Utilizadas -->
-      <section>
+      <section class="container-fluid tecnologias">
         <h2>Tecnologías</h2>
-        <code>Utilizamos las herramientas mas conocidas</code>
+        <p><code>Utilizamos las herramientas mas conocidas</code></p>
 
         <div><img src="" alt=""></div>
         <div><img src="" alt=""></div>

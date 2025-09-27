@@ -1,0 +1,63 @@
+///
+@use "../assets/variables" as v;
+/// 
+
+.importancias{
+    background-color: v.$letras;
+    padding: 60px 30px;
+
+    h2{
+        font-family: v.$fuente-principal;
+        color: v.$fondo;
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 36px;
+    }
+
+    .importancias-cards{
+
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+
+
+        .card-importancias{
+            background-color: v.$fondo;
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 15px;
+
+            h4{
+                font-family: v.$fuente-principal;
+                color: v.$botones;
+                margin-bottom: 20px;
+                font-size: 24px;
+            }
+            p{
+                font-family: v.$fuente-principal;
+                color: v.$letras;
+                font-size: 16px;
+                line-height: 1.5;
+                text-align: justify;
+
+            }
+
+
+
+
+
+        }
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+}

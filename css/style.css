@@ -5,6 +5,10 @@
   font-style: normal !important;
 }
 
+code {
+  font-size: 14px !important;
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -44,12 +48,12 @@ header nav div div div a {
   font-style: normal !important;
 }
 
-section img {
-  width: 70%;
+.home-conecta-ya img {
+  width: 65%;
   display: block;
   margin: 0px auto;
 }
-section .hero-text {
+.home-conecta-ya .hero-text {
   background-color: #1D232E;
   display: block;
   margin-left: auto;
@@ -61,14 +65,14 @@ section .hero-text {
   margin-top: 20px;
   margin-bottom: 60px;
 }
-section .hero-text p {
+.home-conecta-ya .hero-text p {
   color: #2D63F7;
   font-family: "Rubik Mono One", monospace;
   font-size: 15px;
   font-weight: 600;
   text-align: center;
 }
-section .hero-text div {
+.home-conecta-ya .hero-text div {
   background-color: #FCFDFF;
   width: 50%;
   border-radius: 10px;
@@ -78,14 +82,14 @@ section .hero-text div {
   align-items: center;
   justify-content: center;
 }
-section .hero-text div img {
+.home-conecta-ya .hero-text div img {
   width: 120px;
   display: block;
 }
-section .hero-buttons {
+.home-conecta-ya .hero-buttons {
   text-align: center;
 }
-section .hero-buttons a {
+.home-conecta-ya .hero-buttons a {
   display: inline-block;
   font-family: "Rubik Mono One", monospace;
   font-size: 16px;
@@ -97,10 +101,241 @@ section .hero-buttons a {
   border-radius: 25px;
   transition: all 0.3s ease;
 }
-section .hero-buttons a:hover {
+.home-conecta-ya .hero-buttons a:hover {
   background-color: #FCFDFF;
   color: #2D63F7;
   border: #2D63F7 1px solid;
+}
+
+.pres-proyecto {
+  margin: 120px auto;
+}
+.pres-proyecto h1 {
+  font-family: "Rubik Mono One", monospace;
+  color: #FCFDFF;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+.pres-proyecto h2 {
+  font-family: "Rubik Mono One", monospace;
+  color: #FCFDFF;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.pres-proyecto p {
+  font-family: "Rubik", sans-serif;
+  color: #FCFDFF;
+  font-size: 16px;
+  margin: 20px 50px;
+  text-align: justify;
+}
+
+.soluciones-ofrecidas {
+  background-color: #1D232E;
+  padding: 80px 0px;
+}
+.soluciones-ofrecidas h2 {
+  text-align: center;
+  font-family: "Rubik Mono One", monospace;
+  color: #FCFDFF;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.soluciones-ofrecidas .soluciones-cards {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+.soluciones-ofrecidas .soluciones-cards .card-soluciones-ofrecidas {
+  padding: 50px;
+  border-radius: 15px;
+  background-color: #030A17;
+  margin-bottom: 40px;
+}
+.soluciones-ofrecidas .soluciones-cards .card-soluciones-ofrecidas img {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.soluciones-ofrecidas .soluciones-cards .card-soluciones-ofrecidas h3 {
+  font-family: "Rubik Mono One", monospace;
+  color: #FCFDFF;
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+.soluciones-ofrecidas .soluciones-cards .card-soluciones-ofrecidas p {
+  font-family: "Rubik", sans-serif;
+  color: #FCFDFF;
+  font-size: 16px;
+  text-align: justify;
+  font-weight: 450;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.soluciones-ofrecidas .soluciones-cards .card-soluciones-ofrecidas .card-sol-of-button {
+  background-color: #FCFDFF;
+  padding: 10px;
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: #2D63F7 solid 2px;
+  transition: transform 1s ease;
+}
+.soluciones-ofrecidas .soluciones-cards .card-soluciones-ofrecidas .card-sol-of-button a {
+  font-family: "Rubik Mono One", monospace;
+  color: #2D63F7;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+  display: block;
+}
+.soluciones-ofrecidas .soluciones-cards .card-soluciones-ofrecidas .card-sol-of-button:hover {
+  transform: scale(1.1);
+}
+.soluciones-ofrecidas .soluciones-cards {
+  /* Card 2 diferente */
+}
+.soluciones-ofrecidas .soluciones-cards .card-soluciones-ofrecidas:nth-child(2) {
+  background-color: #FCFDFF;
+}
+.soluciones-ofrecidas .soluciones-cards .card-soluciones-ofrecidas:nth-child(2) h3 {
+  color: #2D63F7;
+}
+.soluciones-ofrecidas .soluciones-cards .card-soluciones-ofrecidas:nth-child(2) p {
+  color: #030A17;
+}
+.soluciones-ofrecidas .soluciones-cards .card-soluciones-ofrecidas:nth-child(2) .card-sol-of-button {
+  background-color: #030A17;
+}
+
+.publicidad-darox-web {
+  display: flex;
+  background-color: black;
+  padding: 35px 25px;
+  justify-content: center;
+  align-items: center;
+}
+.publicidad-darox-web img {
+  width: 150px;
+}
+.publicidad-darox-web .publicidad-text {
+  display: block;
+}
+.publicidad-darox-web .publicidad-text h4 {
+  color: #FCFDFF;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Rubik", sans-serif;
+}
+.publicidad-darox-web .publicidad-text p {
+  color: #47F59A;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+}
+.publicidad-darox-web .publicidad-text .publicidad-button {
+  background-color: #1D232E;
+  width: 70%;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+}
+.publicidad-darox-web .publicidad-text .publicidad-button a {
+  color: #47F59A;
+  font-family: "Rubik Mono One", monospace;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.importancias {
+  background-color: #FCFDFF;
+  padding: 60px 30px;
+}
+.importancias h2 {
+  font-family: "Rubik", sans-serif;
+  color: #030A17;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 36px;
+}
+.importancias .importancias-cards {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+.importancias .importancias-cards .card-importancias {
+  background-color: #030A17;
+  padding: 30px;
+  margin: 30px 0;
+  border-radius: 15px;
+}
+.importancias .importancias-cards .card-importancias h4 {
+  font-family: "Rubik", sans-serif;
+  color: #2D63F7;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.importancias .importancias-cards .card-importancias p {
+  font-family: "Rubik", sans-serif;
+  color: #FCFDFF;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.actividades-seccion {
+  padding: 0px 0px 25px 0px;
+}
+.actividades-seccion .actividades {
+  background-color: #2D63F7;
+  width: 90%;
+  border-radius: 30px;
+  padding: 30px;
+  margin: -60px auto 60px auto;
+}
+.actividades-seccion .actividades h3 {
+  font-family: "Rubik", sans-serif;
+  color: #030A17;
+  text-align: center;
+  font-size: 36px;
+}
+.actividades-seccion .actividades h4 {
+  font-family: "Rubik", sans-serif;
+  color: #FCFDFF;
+  margin-top: 20px;
+  font-size: 24px;
+}
+.actividades-seccion .actividades p {
+  font-family: "Rubik", sans-serif;
+  color: #030A17;
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.tecnologias {
+  padding: 50px 20px;
+}
+.tecnologias h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Rubik", sans-serif;
+}
+.tecnologias p {
+  text-align: center;
 }
 
 /* Reset CSS */
