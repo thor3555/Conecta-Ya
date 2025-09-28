@@ -1,22 +1,24 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // =========================
-  // Scroll Smooth
-  // =========================
-  const links = document.querySelectorAll(".nav-link");
+  const sections = document.querySelectorAll("section[id]");
+  const navLinks = document.querySelectorAll(".nav-link");
+  const navbarCollapse = document.getElementById("navbarNavAltMarkup");
+  const navbarToggler = document.querySelector(".navbar-toggler");
 
-  links.forEach(link => {
+  // =========================
+  // Scroll Suave
+  // =========================
+  navLinks.forEach(link => {
     link.addEventListener("click", e => {
       e.preventDefault();
       const targetId = link.getAttribute("href").substring(1);
       const targetSection = document.getElementById(targetId);
 
       window.scrollTo({
-        top: targetSection.offsetTop - 70, // ajustar según altura del navbar
+        top: targetSection.offsetTop - 70, // altura navbar
         behavior: "smooth"
       });
 
       // cerrar menú en móviles
-      const navbarCollapse = document.getElementById("navbarNavAltMarkup");
       if (navbarCollapse.classList.contains("show")) {
         const bsCollapse = new bootstrap.Collapse(navbarCollapse, { toggle: true });
         bsCollapse.hide();
@@ -25,36 +27,9 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // =========================
-  // Scroll Spy
+  // Cerrar menú al hacer clic fuera
   // =========================
-  const sections = document.querySelectorAll("section[id]");
-
-  window.addEventListener("scroll", () => {
-    let current = "";
-
-    sections.forEach(section => {
-      const sectionTop = section.offsetTop - 80; // ajustar según altura del navbar
-      const sectionHeight = section.offsetHeight;
-      if (window.pageYOffset >= sectionTop && window.pageYOffset < sectionTop + sectionHeight) {
-        current = section.getAttribute("id");
-      }
-    });
-
-    links.forEach(link => {
-      link.classList.remove("active");
-      if (link.getAttribute("href") === `#${current}`) {
-        link.classList.add("active");
-      }
-    });
-  });
-
-  // =========================
-  // Cerrar menú al hacer click fuera
-  // =========================
-  document.addEventListener("click", function(event) {
-    const navbarCollapse = document.getElementById("navbarNavAltMarkup");
-    const navbarToggler = document.querySelector(".navbar-toggler");
-
+  document.addEventListener("click", event => {
     if (
       navbarCollapse.classList.contains("show") &&
       !navbarCollapse.contains(event.target) &&
@@ -64,4 +39,41 @@ document.addEventListener("DOMContentLoaded", () => {
       bsCollapse.hide();
     }
   });
+
+  // =========================
+  // Scroll Spy más confiable
+  // =========================
+  const observer = new IntersectionObserver(
+    entries => {
+      let visibleSections = [];
+
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          visibleSections.push({
+            id: entry.target.getAttribute("id"),
+            ratio: entry.intersectionRatio
+          });
+        }
+      });
+
+      // limpiar todos
+      navLinks.forEach(link => link.classList.remove("active"));
+
+      if (visibleSections.length > 0) {
+        // Activar la sección con más visibilidad
+        visibleSections.sort((a, b) => b.ratio - a.ratio);
+        const current = visibleSections[0].id;
+
+        navLinks.forEach(link => {
+          link.classList.toggle("active", link.getAttribute("href") === `#${current}`);
+        });
+      }
+    },
+    {
+      rootMargin: "-70px 0px -70px 0px", // compensa navbar
+      threshold: [0.3, 0.5, 0.7] // revisa distintas proporciones
+    }
+  );
+
+  sections.forEach(section => observer.observe(section));
 });
