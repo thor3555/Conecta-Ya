@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .rubik {
   font-family: "Rubik", sans-serif !important;
   font-weight: 700 !important;
@@ -46,6 +47,76 @@ header nav div div div a {
   font-weight: 500 !important;
   font-size: 18px !important;
   font-style: normal !important;
+}
+
+.footer-wrapper {
+  background-color: #FCFDFF;
+}
+.footer-wrapper .footer-conecta-ya {
+  padding: 20px 0px;
+  background-color: #1D232E;
+  border-radius: 20px 20px 0px 0px;
+}
+.footer-wrapper .footer-conecta-ya img {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+.footer-wrapper .footer-conecta-ya p {
+  color: #FCFDFF;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.footer-wrapper .footer-conecta-ya p code a {
+  color: inherit; /* mantiene el color del code */
+  text-decoration: none; /* quita subrayado */
+}
+
+.publicidad-darox-web {
+  display: flex;
+  background-color: black;
+  padding: 35px 25px;
+  justify-content: center;
+  align-items: center;
+}
+.publicidad-darox-web img {
+  width: 150px;
+}
+.publicidad-darox-web .publicidad-text {
+  display: block;
+}
+.publicidad-darox-web .publicidad-text h4 {
+  color: #FCFDFF;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Rubik", sans-serif;
+}
+.publicidad-darox-web .publicidad-text p {
+  color: #47F59A;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+}
+.publicidad-darox-web .publicidad-text .publicidad-button {
+  background-color: #1D232E;
+  width: 70%;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  transition: all 0.5s ease-in-out;
+}
+.publicidad-darox-web .publicidad-text .publicidad-button a {
+  color: #47F59A;
+  font-family: "Rubik Mono One", monospace;
+  text-decoration: none;
+  font-size: 16px;
+}
+.publicidad-darox-web .publicidad-text .publicidad-button:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
 }
 
 .home-conecta-ya {
@@ -217,51 +288,6 @@ header nav div div div a {
 }
 .soluciones-ofrecidas .soluciones-cards .card-soluciones-ofrecidas:nth-child(2) .card-sol-of-button {
   background-color: #030A17;
-}
-
-.publicidad-darox-web {
-  display: flex;
-  background-color: black;
-  padding: 35px 25px;
-  justify-content: center;
-  align-items: center;
-}
-.publicidad-darox-web img {
-  width: 150px;
-}
-.publicidad-darox-web .publicidad-text {
-  display: block;
-}
-.publicidad-darox-web .publicidad-text h4 {
-  color: #FCFDFF;
-  text-align: center;
-  font-size: 35px;
-  font-family: "Rubik", sans-serif;
-}
-.publicidad-darox-web .publicidad-text p {
-  color: #47F59A;
-  text-align: center;
-  font-size: 20px;
-  font-family: "Rubik", sans-serif;
-}
-.publicidad-darox-web .publicidad-text .publicidad-button {
-  background-color: #1D232E;
-  width: 70%;
-  padding: 10px;
-  margin: 0 auto;
-  text-align: center;
-  border-radius: 15px;
-  transition: all 0.5s ease-in-out;
-}
-.publicidad-darox-web .publicidad-text .publicidad-button a {
-  color: #47F59A;
-  font-family: "Rubik Mono One", monospace;
-  text-decoration: none;
-  font-size: 16px;
-}
-.publicidad-darox-web .publicidad-text .publicidad-button:hover {
-  text-decoration: underline;
-  transform: scale(1.1);
 }
 
 .importancias {
@@ -469,27 +495,91 @@ header nav div div div a {
   text-align: start;
 }
 
-.footer-wrapper {
-  background-color: #FCFDFF;
+.main-p2 {
+  padding-bottom: 70px;
 }
-.footer-wrapper .footer-conecta-ya {
+.main-p2 .p2-titulo {
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 35px;
+  color: #FCFDFF;
+  font-family: "Rubik Mono One", monospace;
+}
+.main-p2 .p2-seccion {
+  padding: 50px 20px;
+}
+.main-p2 .p2-seccion .p2-solucion:nth-child(2) {
+  margin-top: 60px;
+}
+.main-p2 .p2-seccion .p2-solucion h2 {
+  font-family: "Rubik Mono One", monospace;
+  color: #FCFDFF;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.main-p2 .p2-seccion .p2-solucion h3 {
+  font-family: "Rubik Mono One", monospace;
+  color: #FCFDFF;
+  font-size: 14px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.main-p2 .p2-seccion .p2-solucion ul li {
+  font-family: "Rubik Mono One", monospace;
+  color: #FCFDFF;
+  font-size: 14px;
+  margin-bottom: 10px;
+  list-style: none;
+  position: relative;
+  padding-left: 20px;
+}
+.main-p2 .p2-seccion .p2-solucion ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #2D63F7;
+}
+.main-p2 .p2-bot-volver-soluciones-section {
+  background-color: #FCFDFF;
+  padding: 10px;
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: #2D63F7 solid 2px;
+  transition: transform 1s ease;
+}
+.main-p2 .p2-bot-volver-soluciones-section a {
+  font-family: "Rubik Mono One", monospace;
+  color: #2D63F7;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+  display: block;
+}
+.main-p2 .p2-bot-volver-soluciones-section:hover {
+  transform: scale(1.1);
+}
+
+.footer-conecta-ya {
   padding: 20px 0px;
   background-color: #1D232E;
   border-radius: 20px 20px 0px 0px;
 }
-.footer-wrapper .footer-conecta-ya img {
+.footer-conecta-ya img {
   max-width: 100px;
   display: block;
   margin: 0 auto;
 }
-.footer-wrapper .footer-conecta-ya p {
+.footer-conecta-ya p {
   color: #FCFDFF;
   font-family: "Rubik", sans-serif;
   text-align: center;
   font-weight: 600;
   margin-top: 10px;
 }
-.footer-wrapper .footer-conecta-ya p code a {
+.footer-conecta-ya p code a {
   color: inherit; /* mantiene el color del code */
   text-decoration: none; /* quita subrayado */
 }
