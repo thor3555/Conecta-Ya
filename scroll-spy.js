@@ -5,20 +5,27 @@ document.addEventListener("DOMContentLoaded", () => {
   const navbarToggler = document.querySelector(".navbar-toggler");
 
   // =========================
-  // Scroll Suave
+  // Scroll Suave (solo en enlaces internos)
   // =========================
   navLinks.forEach(link => {
     link.addEventListener("click", e => {
-      e.preventDefault();
-      const targetId = link.getAttribute("href").substring(1);
-      const targetSection = document.getElementById(targetId);
+      const href = link.getAttribute("href");
 
-      window.scrollTo({
-        top: targetSection.offsetTop - 70, // altura navbar
-        behavior: "smooth"
-      });
+      // Solo interceptamos si es un #id interno
+      if (href && href.startsWith("#")) {
+        e.preventDefault();
+        const targetId = href.substring(1);
+        const targetSection = document.getElementById(targetId);
 
-      // cerrar menú en móviles
+        if (targetSection) {
+          window.scrollTo({
+            top: targetSection.offsetTop - 70, // altura navbar
+            behavior: "smooth"
+          });
+        }
+      }
+
+      // cerrar menú en móviles siempre
       if (navbarCollapse.classList.contains("show")) {
         const bsCollapse = new bootstrap.Collapse(navbarCollapse, { toggle: true });
         bsCollapse.hide();
