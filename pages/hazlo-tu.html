@@ -18,6 +18,9 @@
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   
+        <!-- Animate AOS -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
         <!-- Animate CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
@@ -34,7 +37,7 @@
                 
                 <div class="container-fluid">
                     
-                <a class="navbar-brand animate__animated animate__heartBeat" href="../index.html">Conecta Ya</a> <!-- Arreglar  -->
+                <a class="navbar-brand animate__animated animate__rubberBand" href="../index.html">Conecta Ya</a> <!-- Arreglar  -->
                         
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -62,15 +65,15 @@
         
         <main class="main-p2">
 
-            <h1 class="p2-titulo">Nuestras Soluciones</h1>
+            <h1 class="p2-titulo animate__animated animate__tada">Nuestras Soluciones</h1>
 
             <section class="p2-seccion">
                 
                 <div class="p2-solucion">
-                    <h2>Generador</h2>
+                    <h2 class="animate__animated animate__jello">Generador</h2>
 
-                    <h3>Materiales</h3>
-                    <div>
+                    <h3 class="animate__animated animate__jello">Materiales</h3>
+                    <div class="animate__animated animate__bounce">
                         <ul>
                             <li>20 Listones de madera de 1x1 pulgadas</li>
                             <li>Caños de pvc(1 largo, 2 medianos)</li>
@@ -84,10 +87,10 @@
                 </div>
 
                 <div class="p2-solucion">
-                    <h2>Botón SOS</h2>
+                    <h2 class="animate__animated animate__jello">Botón SOS</h2>
 
-                    <h3>Materiales</h3>
-                    <div>
+                    <h3 class="animate__animated animate__jello">Materiales</h3>
+                    <div class="animate__animated animate__bounce">
                         <ul>
                             <li>ESP 32</li>
                             <li>Botón</li>
@@ -108,7 +111,7 @@
         
 
         <!-- Publicidad -->
-        <section class="container-fluid publicidad-darox-web">
+        <section class="container-fluid publicidad-darox-web" data-aos="flip-left" data-aos-duration="1100">
 
             <img src="/assets/img/daroxweb-sin-fondo.png" alt="">
             <div class="publicidad-text">
@@ -130,7 +133,14 @@
 
 
 
+        <!-- Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+        <!-- Script Propio -->
         <script src="/scroll-spy.js"></script>
+
+        <!-- Animate AOS -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script> AOS.init(); </script>
     </body>
 </html>
