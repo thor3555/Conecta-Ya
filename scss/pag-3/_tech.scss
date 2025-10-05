@@ -1,0 +1,93 @@
+///
+@use "../assets/variables" as v;
+/// 
+
+
+.main-p3{
+    padding-bottom: 70px;
+
+    h1{
+        font-family: v.$fuente-principal;
+        color: v.$botones;
+        text-align: center;
+        font-size: 45px;
+        font-weight: 800;
+
+    }
+
+    h4{
+        font-family: v.$fuente-secundaria;
+        color: v.$letras;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .leng-p3{
+        margin: 60px 20px;
+        padding: 40px;
+        border-radius: 20px;
+        background-color: v.$cards;
+        >ul{
+            list-style: none;
+            padding-left: 0;    // 🔹 elimina sangría
+            margin-left: 0;     // 🔹 elimina margen por defecto   
+            
+            >li{
+                margin-bottom: 20px;
+
+                h3{
+                    font-family: v.$fuente-principal;
+                    color: v.$botones;
+                    font-size: 20px;
+                    margin-bottom: 10px;
+                }
+                ul{
+                    list-style: none;
+                    li::before{
+                        content: '•';
+                        color: v.$botones;
+                        position: absolute;
+                        left: 70px;
+                    }
+                    li{
+                        font-family: v.$fuente-principal;
+                        font-size: 16px;
+                        text-align: justify;
+                        color: v.$letras;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .p3-bot-volver-tech-section{
+        background-color: v.$letras;
+        padding: 10px;
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 15px;
+        border: v.$botones solid 2px;
+        transition: transform 1s ease;
+
+        a{
+            font-family: v.$fuente-secundaria;
+            color: v.$botones;
+            text-decoration: none;
+            font-weight: 800;
+            font-size: 18px;
+            text-align: center;
+            display: block;
+        }
+
+        &:hover{
+            transform: scale(1.1);
+        }
+
+    }
+
+
+
+
+}
