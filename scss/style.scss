@@ -50,3 +50,6 @@ body {
     }
 }
 /// 
+html, body { /* Bloquea el scroll horzontal */
+  overflow-x: hidden;
+}

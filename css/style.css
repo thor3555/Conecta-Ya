@@ -360,7 +360,7 @@ header nav div div div a {
 
 .tecnologias {
   background-color: #FCFDFF;
-  padding: 70px 20px 90px 20px;
+  padding: 70px 20px 70px 20px;
 }
 .tecnologias h2 {
   font-size: 32px;
@@ -488,6 +488,7 @@ header nav div div div a {
   font-family: "Rubik Mono One", monospace;
   font-size: 20px;
   text-align: start;
+  margin-bottom: 50px;
 }
 .equipo-seccion .equipo-miembros-grid .miembros-equipo p {
   font-family: "Rubik", sans-serif;
@@ -693,6 +694,10 @@ body {
   body main {
     padding-top: 170px;
   }
+}
+
+html, body { /* Bloquea el scroll horzontal */
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
