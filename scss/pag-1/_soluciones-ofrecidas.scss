@@ -103,5 +103,25 @@
     }
 
 
+    /* Media Querie Tablet */
+    @media (min-width:500px){
+        h2{
+            font-size: 42px;
+        }
+        .soluciones-cards{
+            width: 75%;
+        }
+
+    }
+    /* Media Querie Desktop */
+    @media (min-width:900px){
+        h2{
+            font-size: 42px;
+        }
+        .soluciones-cards{
+            width: 45%;
+        }
+
+    }
 
 }

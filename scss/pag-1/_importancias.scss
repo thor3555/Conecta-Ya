@@ -52,6 +52,21 @@
 
     }
 
+    /* Media Querie Tablet */
+    @media (min-width:500px){
+        h2{font-size: 50px;}
+
+    }
+
+    /* Media Querie Desktop */
+    @media (min-width:900px){
+        h2{font-size: 56px;}
+        .importancias-cards{
+            width: 70%;
+        }
+
+    }
+
 
 
 

@@ -47,4 +47,15 @@ header{
             }
         }
     }
+
+
+
+    /* Media Querie Desktop */
+    @media (min-width:900px){
+        nav,div,div,div{
+            justify-content: end;
+        }
+
+
+    }
 }

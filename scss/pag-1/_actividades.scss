@@ -40,6 +40,23 @@
 
     }
 
-
+    /* Media Querie Tablet */
+    @media (min-width:500px){
+        .actividades{
+            width: 80%;
+            h3{
+                font-size: 42px;
+            }
+        }
+    }
+    /* Media Querie Desktop */
+    @media (min-width:900px){
+        .actividades{
+            width: 60%;
+            h3{
+                font-size: 50px;
+            }
+        }
+    }
 
 }

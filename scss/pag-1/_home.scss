@@ -4,7 +4,7 @@
 
 .home-conecta-ya{
 
-    padding-top: 0px;
+    padding-top: 0px !important;
     
     img{
         width: 65%;
@@ -22,7 +22,7 @@
         width: 90%;
         padding: 20px;
         margin-top: 20px;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
         p{
             color: v.$botones;
             font-family: v.$fuente-secundaria;
@@ -46,6 +46,17 @@
                 display: block;
             }
         }
+        .date-poveda{
+            margin-top: 20px;
+            text-align: center;
+            code{
+                font-size: 20px !important;
+                sup{
+                    font-size: 13px;
+                }
+            }
+
+        }
 
     }
 
@@ -68,5 +79,36 @@
                 border: v.$botones 1px solid;
             }
         } 
+    }
+
+
+
+
+
+
+
+    /* Media Querie Tablet */
+    @media (min-width: 500px){
+        img{width: 45%;}
+        .hero-text{
+            width: 80%;
+            div{
+                width:36%;
+            }
+        }
+    }
+
+    /* Media Querie Desktop */
+    @media (min-width: 900px){
+        img{width: 23%;}
+        .hero-text{
+            width: 55%;
+            margin-top: 0px;
+            margin-bottom: 35px;
+            div{
+                width: 17%;
+            }
+
+        }
     }
 }

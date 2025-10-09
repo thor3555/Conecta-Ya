@@ -100,4 +100,46 @@
         }
     }
 
+
+
+
+    /* Media Querie Tablet */
+    @media (min-width:500px){
+        h2{
+            font-size: 50px;
+        }
+        .tecnologias-logos{
+            width: 85%;
+            margin: 0 auto;
+            .logo-tec-img{
+                img{
+                    max-width: 90%;
+                }
+            }
+        }
+        a{
+            font-size: 18px;
+        }
+    }
+    /* Media Querie Desktop */
+    @media (min-width:900px){
+        h2{
+            font-size: 62px;
+        }
+        .tecnologias-logos{
+            width: 50%;
+            margin: 0 auto;
+            .logo-tec-img{
+
+                img{
+                    max-width:60%;
+                }
+            }
+        }
+        a{
+            font-size: 18px;
+        }
+    }
+
+
 }

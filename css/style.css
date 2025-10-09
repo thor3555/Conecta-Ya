@@ -48,6 +48,14 @@ header nav div div div a {
   font-size: 18px !important;
   font-style: normal !important;
 }
+header {
+  /* Media Querie Desktop */
+}
+@media (min-width: 900px) {
+  header nav, header div, header div, header div {
+    justify-content: end;
+  }
+}
 
 .footer-wrapper {
   background-color: #FCFDFF;
@@ -120,7 +128,7 @@ header nav div div div a {
 }
 
 .home-conecta-ya {
-  padding-top: 0px;
+  padding-top: 0px !important;
 }
 .home-conecta-ya img {
   width: 65%;
@@ -137,7 +145,7 @@ header nav div div div a {
   width: 90%;
   padding: 20px;
   margin-top: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 .home-conecta-ya .hero-text p {
   color: #2D63F7;
@@ -160,6 +168,16 @@ header nav div div div a {
   width: 120px;
   display: block;
 }
+.home-conecta-ya .hero-text .date-poveda {
+  margin-top: 20px;
+  text-align: center;
+}
+.home-conecta-ya .hero-text .date-poveda code {
+  font-size: 20px !important;
+}
+.home-conecta-ya .hero-text .date-poveda code sup {
+  font-size: 13px;
+}
 .home-conecta-ya .hero-buttons {
   text-align: center;
 }
@@ -179,6 +197,36 @@ header nav div div div a {
   background-color: #FCFDFF;
   color: #2D63F7;
   border: #2D63F7 1px solid;
+}
+.home-conecta-ya {
+  /* Media Querie Tablet */
+}
+@media (min-width: 500px) {
+  .home-conecta-ya img {
+    width: 45%;
+  }
+  .home-conecta-ya .hero-text {
+    width: 80%;
+  }
+  .home-conecta-ya .hero-text div {
+    width: 36%;
+  }
+}
+.home-conecta-ya {
+  /* Media Querie Desktop */
+}
+@media (min-width: 900px) {
+  .home-conecta-ya img {
+    width: 23%;
+  }
+  .home-conecta-ya .hero-text {
+    width: 55%;
+    margin-top: 0px;
+    margin-bottom: 35px;
+  }
+  .home-conecta-ya .hero-text div {
+    width: 17%;
+  }
 }
 
 .pres-proyecto {
@@ -204,6 +252,15 @@ header nav div div div a {
   font-size: 16px;
   margin: 20px 50px;
   text-align: justify;
+}
+.pres-proyecto {
+  /* Media querie desktop */
+}
+@media (min-width: 900px) {
+  .pres-proyecto p {
+    width: 70%;
+    margin: 0 auto;
+  }
 }
 
 .soluciones-ofrecidas {
@@ -289,6 +346,28 @@ header nav div div div a {
 .soluciones-ofrecidas .soluciones-cards .card-soluciones-ofrecidas:nth-child(2) .card-sol-of-button {
   background-color: #030A17;
 }
+.soluciones-ofrecidas {
+  /* Media Querie Tablet */
+}
+@media (min-width: 500px) {
+  .soluciones-ofrecidas h2 {
+    font-size: 42px;
+  }
+  .soluciones-ofrecidas .soluciones-cards {
+    width: 75%;
+  }
+}
+.soluciones-ofrecidas {
+  /* Media Querie Desktop */
+}
+@media (min-width: 900px) {
+  .soluciones-ofrecidas h2 {
+    font-size: 42px;
+  }
+  .soluciones-ofrecidas .soluciones-cards {
+    width: 45%;
+  }
+}
 
 .importancias {
   background-color: #FCFDFF;
@@ -325,6 +404,25 @@ header nav div div div a {
   line-height: 1.5;
   text-align: justify;
 }
+.importancias {
+  /* Media Querie Tablet */
+}
+@media (min-width: 500px) {
+  .importancias h2 {
+    font-size: 50px;
+  }
+}
+.importancias {
+  /* Media Querie Desktop */
+}
+@media (min-width: 900px) {
+  .importancias h2 {
+    font-size: 56px;
+  }
+  .importancias .importancias-cards {
+    width: 70%;
+  }
+}
 
 .actividades-seccion {
   padding: 0px 0px 25px 0px;
@@ -356,6 +454,28 @@ header nav div div div a {
   font-size: 16px;
   text-align: justify;
   line-height: 1.5;
+}
+.actividades-seccion {
+  /* Media Querie Tablet */
+}
+@media (min-width: 500px) {
+  .actividades-seccion .actividades {
+    width: 80%;
+  }
+  .actividades-seccion .actividades h3 {
+    font-size: 42px;
+  }
+}
+.actividades-seccion {
+  /* Media Querie Desktop */
+}
+@media (min-width: 900px) {
+  .actividades-seccion .actividades {
+    width: 60%;
+  }
+  .actividades-seccion .actividades h3 {
+    font-size: 50px;
+  }
 }
 
 .tecnologias {
@@ -443,6 +563,42 @@ header nav div div div a {
   text-decoration: underline;
   transform: scale(1.1);
 }
+.tecnologias {
+  /* Media Querie Tablet */
+}
+@media (min-width: 500px) {
+  .tecnologias h2 {
+    font-size: 50px;
+  }
+  .tecnologias .tecnologias-logos {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .tecnologias .tecnologias-logos .logo-tec-img img {
+    max-width: 90%;
+  }
+  .tecnologias a {
+    font-size: 18px;
+  }
+}
+.tecnologias {
+  /* Media Querie Desktop */
+}
+@media (min-width: 900px) {
+  .tecnologias h2 {
+    font-size: 62px;
+  }
+  .tecnologias .tecnologias-logos {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .tecnologias .tecnologias-logos .logo-tec-img img {
+    max-width: 60%;
+  }
+  .tecnologias a {
+    font-size: 18px;
+  }
+}
 
 .equipo-seccion {
   background-color: #FCFDFF;
@@ -475,14 +631,19 @@ header nav div div div a {
   justify-items: center;
   margin: 60px 20px;
 }
-.equipo-seccion .equipo-miembros-grid .miembros-equipo:nth-child(7) {
-  grid-area: 4/1/4/3;
+.equipo-seccion .equipo-miembros-grid .miembros-equipo:nth-child(even) {
+  justify-self: end;
 }
 .equipo-seccion .equipo-miembros-grid .miembros-equipo:nth-child(even) h3 {
   text-align: end;
 }
-.equipo-seccion .equipo-miembros-grid .miembros-equipo:nth-child(even) p {
-  text-align: end;
+.equipo-seccion .equipo-miembros-grid .miembros-equipo:nth-child(even) {
+  /* p{
+      text-align: end;
+  } */
+}
+.equipo-seccion .equipo-miembros-grid .miembros-equipo {
+  justify-self: start;
 }
 .equipo-seccion .equipo-miembros-grid .miembros-equipo h3 {
   font-family: "Rubik Mono One", monospace;
@@ -490,10 +651,62 @@ header nav div div div a {
   text-align: start;
   margin-bottom: 50px;
 }
-.equipo-seccion .equipo-miembros-grid .miembros-equipo p {
-  font-family: "Rubik", sans-serif;
-  font-size: 16px;
-  text-align: start;
+.equipo-seccion .equipo-miembros-grid .miembros-equipo {
+  /* p{
+      font-family: v.$fuente-principal;
+      font-size: 16px;
+      text-align: start;
+  } */
+}
+.equipo-seccion .equipo-miembros-grid .miembros-equipo:nth-child(7) {
+  grid-area: 4/1/5/3;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+}
+.equipo-seccion {
+  /* Media Querie Tablet */
+}
+@media (min-width: 500px) {
+  .equipo-seccion h2 {
+    font-size: 50px;
+    font-weight: 500;
+  }
+  .equipo-seccion p {
+    font-size: 22px;
+  }
+  .equipo-seccion img {
+    width: 65%;
+  }
+  .equipo-seccion .equipo-miembros-grid {
+    width: 80%;
+    margin: 60px auto;
+  }
+  .equipo-seccion .equipo-miembros-grid .miembros-equipo h3 {
+    font-size: 20px;
+  }
+}
+.equipo-seccion {
+  /* Media Querie Desktop */
+}
+@media (min-width: 900px) {
+  .equipo-seccion h2 {
+    font-size: 62px;
+    font-weight: 600;
+  }
+  .equipo-seccion p {
+    font-size: 25px;
+  }
+  .equipo-seccion img {
+    width: 40%;
+  }
+  .equipo-seccion .equipo-miembros-grid {
+    width: 50%;
+    margin: 60px auto;
+  }
+  .equipo-seccion .equipo-miembros-grid .miembros-equipo h3 {
+    font-size: 23px;
+  }
 }
 
 .main-p2 {
@@ -628,7 +841,7 @@ header nav div div div a {
   content: "•";
   color: #2D63F7;
   position: absolute;
-  left: 70px;
+  left: 55px;
 }
 .main-p3 .leng-p3 > ul > li ul li {
   font-family: "Rubik", sans-serif;
