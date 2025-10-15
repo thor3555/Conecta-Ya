@@ -19,7 +19,7 @@
     }
 
     img{
-        display: block;
+        display: hidden; /* Debería ser block pero no tenemos foto */
         width: 80%;
         height: 150px;
         margin: 30px auto;
