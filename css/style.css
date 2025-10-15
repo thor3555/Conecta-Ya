@@ -709,6 +709,14 @@ header {
   }
 }
 
+.conteo-visitas {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  background-color: #FCFDFF;
+  padding: 50px 0px 90px 0px;
+}
+
 .main-p2 {
   padding-bottom: 70px;
 }

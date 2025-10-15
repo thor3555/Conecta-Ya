@@ -1,0 +1,12 @@
+///
+@use "../assets/variables" as v;
+/// 
+
+
+.conteo-visitas {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  background-color: v.$letras;
+  padding: 50px 0px 90px 0px;
+}
