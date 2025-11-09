@@ -1,0 +1,20 @@
+# Archivos del sistema
+.DS_Store
+
+# Dependencias
+node_modules/
+
+# Archivos de entorno
+.env
+.env.local
+.env.production
+
+# Builds
+dist/
+build/
+.next/
+
+# IDE y logs
+.vscode/
+.idea/
+*.log
