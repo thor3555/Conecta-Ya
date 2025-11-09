@@ -1,138 +1,266 @@
 # Conecta-Ya
 Conecta-Ya es un proyecto orientado a resolver un problema cotidiano: quedarnos sin batería en los momentos más importantes. La propuesta busca diseñar una solución práctica y accesible que permita a las personas mantener sus dispositivos conectados y cargados en cualquier lugar.
 
-⚡ Conecta-Ya — Proyecto de Física 2025
+# 📘 Proyecto Conecta-Ya — Actividades de Física
 
-Pedro Poveda School | Montevideo, Uruguay
-Integrantes: Juan Pereira, Erik Méndez, Manuel Maciel, Nicolás Miños, Bruno Silva, Axel Rodríguez y Facundo Tato
-Supervisión docente: Área de Física — 3° EMS
+---
 
-⸻
+## ⚡ Primera Actividad: Sitio Web Interactivo
 
-🌐 Descripción General
+### 🎯 Objetivos específicos
 
-Conecta-Ya es un proyecto educativo interdisciplinario que busca ofrecer soluciones prácticas ante la falta de batería en dispositivos móviles, un problema frecuente en la vida cotidiana y con impacto real en la comunicación, la productividad y las emergencias.
+- Desarrollar una web interactiva e informativa y publicarla.  
+- Explicar y comunicar nuestra problemática mediante la web.  
+- Plantear una experiencia interactiva que presente y muestre las posibles soluciones y concientice sobre las formas de prevención de nuestro problema al público.  
 
-El proyecto se divide en tres actividades principales que combinan ciencia, tecnología y conciencia social, integrando conocimientos de electricidad, electrónica y programación.
+---
 
-⸻
+### 🧩 Descripción
 
-⚙️ Actividad 1 — Sitio Web Informativo e Interactivo
+Para la elaboración de la web usaremos diversos lenguajes de programación y software que utilizaremos en conjunto con la información de nuestro proyecto de investigación.  
+Mediante otros métodos e hipervínculos integrados ofreceremos una experiencia interactiva a nuestra problemática y llevaremos control y registro de los usuarios mediante las cookies, que instalan en el dispositivo del usuario un identificador que las almacena para recordar información sobre su visita y mejorar la experiencia en línea.  
 
-Objetivos Específicos
-	•	Desarrollar una web informativa e interactiva sobre la problemática.
-	•	Comunicar y explicar las soluciones desarrolladas por el grupo.
-	•	Generar conciencia sobre la prevención de los problemas derivados de la falta de batería.
+Este identificador es único para cada navegador, por lo tanto, aunque el usuario cambie de ubicación no se registrará una nueva visita.  
+Esto nos acerca a un número de visitantes más exacto.  
 
-Descripción
+---
 
-La web fue creada con el fin de brindar información clara y atractiva sobre nuestra investigación y actividades.
-Utilizamos HTML, CSS, SASS, Bootstrap y JavaScript para el desarrollo visual e interactivo.
-El sitio recopila información mediante Google Forms y utiliza cookies para contar visitas de forma más precisa.
+### 🧠 Fundamentación
 
-Gracias a este sistema, logramos registrar el número real de visitantes sin duplicar conteos por dispositivo.
+#### ¿Cómo aporta a nuestro proyecto?
 
-Fundamentación
+Nos va a permitir generar conciencia e informar sobre nuestra problemática, como también mostrar y comunicar los datos recolectados por nuestra investigación y otras actividades.  
+Además, ofreceremos otras soluciones accesibles y nos aseguraremos de poder informar sobre la prevención de este problema.  
 
-El sitio web es una herramienta clave para comunicar, educar y concientizar al público general.
-Permite difundir nuestras soluciones, mostrar resultados de investigación y promover la prevención del problema.
-El proyecto fue implementado usando HTML, CSS, SASS, Bootstrap, JavaScript, Git, GitHub y Vercel.
+Para realizarlo usaremos los siguientes programas, plataformas y lenguajes de programación:  
 
-Indicadores de Logro
-	•	✅ Logrado: al menos 30 personas visitaron la página.
-	•	⚠️ Medianamente logrado: 20 personas visitaron la página.
-	•	❌ Insuficiente: menos de 20 visitas.
+- **HTML:** lenguaje de marcado estándar utilizado para estructurar el contenido de las páginas web.  
+- **CSS:** para definir la apariencia y el estilo de los documentos HTML.  
+- **Bootstrap:** framework de desarrollo web que combina los anteriores.  
+- **JavaScript:** lenguaje utilizado para que las páginas web sean interactivas.  
+- **SASS:** preprocesador de CSS.  
+- **GitHub:** plataforma que permite tener el código en la nube para que parte del equipo pueda contribuir.  
+- **Git:** control de versiones.  
+- **Vercel:** plataforma que nos permitirá publicarla.  
 
-Resultado: Logrado — la web registró 65 visitas reales, superando el objetivo establecido.
+---
 
-⸻
+### 📊 Indicadores de logro
 
-🔋 Actividad 2 — Generador Eléctrico Casero
+- ✅ **Logrado:** al menos 30 personas visiten la página.  
+- ⚠️ **Medianamente logrado:** 20 personas visiten la página.  
+- ❌ **Insuficiente:** menos de 20 personas visiten la página.  
 
-Objetivos Específicos
-	•	Elaborar planos, esquemas y lista de materiales.
-	•	Construir un generador manual funcional.
-	•	Demostrar su funcionamiento mediante una luz LED.
+---
+---
+---
+---
+---
+---
+## 🔋 Segunda Actividad: Construcción y demostración mediante un generador
 
-Descripción
+### 🎯 Objetivos específicos
 
-El generador fue construido con bobina de cobre, 15 pares de imanes de neodimio, tubos de PVC, lápices, cinta aislante y una estructura de madera.
+- Realizar esquema, planos generales y lista de materiales para llevar a cabo el generador.  
+- Construcción del generador y uso de los materiales.  
+- Uso y demostración del generador.  
 
-Al variar el campo magnético con movimiento, se produce una diferencia de potencial capaz de encender una luz LED.
+---
 
-Fundamentación
+### 🧩 Descripción
 
-Basamos nuestro dispositivo en los principios de los campos eléctricos y magnéticos y en la Ley de Faraday, que explica cómo una variación del flujo magnético induce una corriente eléctrica.
-Este fenómeno se denomina inducción electromagnética, y es la base de los generadores reales de energía.
+Para la construcción del generador usaremos los siguientes materiales:
 
-Indicadores de Logro
-	•	✅ Logrado: planos correctos y generador funcional (enciende LED).
-	•	⚠️ Medianamente logrado: generador construido pero sin encender LED.
-	•	❌ No logrado: no se logra construir el dispositivo.
+- Una bobina hecha de hilo de cobre.  
+- 15 pares de imanes de neodimio.  
+- Tubos de PVC.  
+- Lápices.  
+- Cinta aislante.  
+- Listones de madera (para la estructura).  
 
-Resultado: Medianamente logrado — se construyó el dispositivo, pero no generó la energía suficiente para encender el LED.
+Nuestra construcción produce una cierta diferencia de potencial eléctrico al hacer variar el campo magnético, el cual usaremos para dar energía a una luz LED.  
 
-Posibles Mejoras
-	1.	Optimizar el diseño estructural (más compacto y atractivo).
-	2.	Mejorar el bobinado del cobre (más vueltas y mayor densidad).
-	3.	Usar una LED de bajo consumo para una mejor demostración visual.
+---
 
-⸻
+### 🧠 Fundamentación
 
-🆘 Actividad 3 — Botón SOS
+#### Campo Eléctrico
 
-Objetivos Específicos
-	•	Diseñar los planos eléctricos y lista de materiales.
-	•	Construir un botón de emergencia funcional.
-	•	Programar el envío automático de SMS con ubicación GPS.
+Un campo eléctrico existe en cualquier punto del espacio donde una carga de prueba, al colocarse en dicho punto, experimenta una fuerza eléctrica.  
+La dirección del campo eléctrico en un punto es la misma que la dirección de la fuerza experimentada por una carga de prueba positiva colocada en el punto.  
 
-Materiales
-	•	ESP32: microcontrolador de bajo consumo.
-	•	SIM808: módulo con GSM, GPRS y GPS.
-	•	Batería de litio recargable.
+#### Campo Magnético
 
-Funcionamiento
+Un imán genera a su alrededor un **campo magnético**, que es un campo vectorial.  
+Esto significa que a cada punto alrededor del imán le corresponde un vector campo magnético.  
 
-El dispositivo envía un mensaje de emergencia (SMS) con la ubicación actual al presionar el botón.
-Si la ubicación no puede obtenerse, el sistema envía el mensaje sin coordenadas.
-El número de emergencia se configura al iniciar el dispositivo.
+Este campo representa cómo las fuerzas magnéticas se distribuyen en el espacio que rodea una fuente magnética.  
+Los campos magnéticos son dipolares: poseen un polo norte y un polo sur.  
+Las líneas del campo magnético son siempre cerradas: salen del polo norte y llegan al sur.  
 
-El sistema usa GSM/GPRS para comunicación y GPS para localización precisa.
+#### Ley de Faraday
 
-Fundamentación
+**fem** significa *fuerza electromotriz*, que es un voltaje o diferencia de potencial eléctrico capaz de crear una corriente eléctrica.  
+Faraday descubrió que se produce una fem inducida en una espira o en un circuito siempre que cambia la cantidad de líneas de campo magnético que pasan por el plano del circuito.  
 
-El botón SOS surge como respuesta a la dependencia de la comunicación móvil.
-Su propósito es ofrecer un método alternativo y autónomo de comunicación cuando el teléfono se encuentra sin batería o fuera de servicio.
+El campo magnético generado por la corriente inducida se opone al cambio de flujo, fenómeno conocido como **inercia electromagnética**.  
 
-El código fue desarrollado en Arduino IDE y cargado en el microcontrolador.
-Se incluye además un video instructivo recomendado:
-“Send Location & Make Call using SOS Button | IOT Projects | GPS Projects”
+---
 
-Indicadores de Logro
-	•	✅ Logrado: tres o más personas construyen el dispositivo y lo usan.
-	•	⚠️ Medianamente logrado: una persona lo construye y utiliza.
-	•	❌ No logrado: nadie logra construirlo.
+### 📊 Indicadores de logro
 
-⸻
+- ✅ **Logrado:** explicar y definir claramente los planos, y que el generador sea funcional y demuestre el funcionamiento mediante un LED.  
+- ⚠️ **Medianamente logrado:** se logra construir pero no se enciende el LED.  
+- ❌ **No logrado:** no se logra construir el generador.  
 
-📈 Resultados Finales
+---
+---
+---
+---
+---
+---
+## 🆘 Tercera Actividad: Botón SOS
 
-Actividad 1 — Web Conecta-Ya
+### 🎯 Objetivos específicos
 
-Resultado: ✅ Logrado
-Se obtuvieron 65 visitas reales, cumpliendo y superando la meta.
-El sitio quedó publicado y es de contribución pública, permitiendo sugerencias o aportes de visitantes.
+- Realizar el plan de trabajo y planos del circuito a usar.  
+- Realizar la lista de materiales a utilizar.  
+- Construir y armar el dispositivo.  
 
-Actividad 2 — Generador
+---
 
-Resultado: ⚠️ Medianamente logrado
-El dispositivo fue construido pero no logró encender el LED.
-Se identificaron mejoras en el diseño, el bobinado y la elección de componentes.
+### 🧩 Introducción
 
-Actividad 3 — Botón SOS
+Vamos a construir un botón con el objetivo de responder a nuestra problemática.  
+Para llevar a cabo esto utilizaremos los siguientes materiales:
 
-Resultado: 🔧 En desarrollo
-El circuito y código fueron implementados exitosamente, con posibilidad de enviar SMS de emergencia y ubicación GPS.
+- **ESP32:** microcontroladores económicos de bajo consumo.  
+- **SIM808:** módulo que tiene GSM/GPRS y GPS.  
+- **Batería de litio.**  
+
+**GSM:** permite realizar llamadas, enviar mensajes de texto (SMS) y acceder a servicios de datos.  
+**GPRS:** permite la transferencia de datos por paquetes.  
+**GPS:** red de satélites que permite determinar la ubicación, velocidad y hora con precisión.  
+
+---
+
+### 🧠 Fundamentación
+
+La idea del botón S.O.S se origina en poder reemplazar la función primaria de la comunicación móvil: la comunicación vía mensaje.  
+Su función radica en enviar un **SMS y la ubicación actual**, indicando que el sujeto se encuentra en peligro o emergencia.  
+
+El botón activa una función que intenta enviar el mensaje con ubicación; si no es posible, envía solo el SMS.  
+El número de emergencia se configura antes de usar el dispositivo.  
+
+El módulo **SIM808** obtiene la ubicación y se comunica con la placa **ESP32**, alimentada por una batería de litio para garantizar autonomía.  
+
+---
+
+### 📊 Indicadores de logro
+
+- ✅ **Logrado:** 3 o más personas logran construir el dispositivo y llevarlo consigo diariamente.  
+- ⚠️ **Medianamente logrado:** 1 persona logra construirlo y usarlo.  
+- ❌ **No logrado:** ninguna persona logra construirlo.
+
+---
+# 🆘 Guía rápida de configuración del botón SOS
+
+---
+
+## 🔧 1. Requisitos previos  
+
+✅ Asegurarse de que el **botón SOS** esté ensamblado correctamente y conectado por **USB** a la computadora.  
+💻 Tener instalado el **Arduino IDE**.  
+
+📥 Descargar desde:  
+👉 [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)
+
+---
+
+## 📂 2. Descargar el código  
+
+🌐 Entrar al **repositorio de GitHub** del proyecto.  
+📦 Descarga desde:  
+👉 [https://github.com/techiesms/SOS-button-using-A9G---XIAO-C3](https://github.com/techiesms/SOS-button-using-A9G---XIAO-C3)  
+
+1️⃣ Hacer clic en **“Code → Download ZIP”**.  
+2️⃣ Descomprimir el archivo ZIP en una carpeta del escritorio.  
+
+---
+
+## 💻 3. Abrir el código en Arduino IDE  
+
+📁 Dentro de la carpeta descargada, buscar el archivo **code.ino**  
+🖱️ Abrirlo haciendo doble clic o desde el IDE: Archivo/Abrir/code.ino
+
+---
+
+## ⚙️ 4. Seleccionar la placa y el puerto  
+
+🧭 En el menú superior del Arduino IDE: 
+
+🔸 Ir a **Herramientas → Placa:** seleccionar el modelo correspondiente (por ejemplo Arduino Uno, Nano, etc.)  
+🔸 Ir a **Herramientas → Puerto:** elegir el puerto que aparece con el nombre de tu placa  
+💡 (por ejemplo `COM3` en Windows o `/dev/cu.usbmodem…` en macOS)
+
+---
+
+## 🚀 5. Subir el programa  
+
+⬆️ Hacer clic en el botón **“Subir”**.  
+⏳ Esperar a que aparezca el mensaje **“Subido correctamente”** en la consola inferior.
+
+---
+
+## ✅ 6. Finalización  
+
+🎉 El **botón SOS** ya tiene cargado el código y está **listo para funcionar**.  
+🔌 Podés desconectarlo del cable USB.
+
+---
+---
+---
+---
+---
+---
+
+## 📈 Resultados
+
+### Actividad 1: La página web
+
+Consideramos esta actividad como **lograda**, gracias a que mediante la herramienta de registro (*Google Forms*) pudimos recolectar **65 usuarios** que visitaron la página web.  
+Estas visitas son reales, ya que cada usuario debía visualizar la web para contabilizarse.  
+
+La página web es de contribución pública: cualquier persona puede incluir contribuciones para su posterior aprobación, fomentando la participación en *Conecta-Ya*.  
+
+---
+
+### Actividad 2: Generador
+
+Consideramos que fue **medianamente lograda**, ya que logramos construir el dispositivo pero no generar la energía suficiente para encender el LED.  
+
+#### Mejoras posibles:
+1. Optimizar el diseño para hacerlo más eficiente y atractivo.  
+2. Mejorar el bobinado del cobre, aumentando la cantidad de vueltas y reduciendo espacios.  
+3. Implementar una **LED de bajo consumo**, visible con menor energía.  
+
+Con estas mejoras, el generador podrá ofrecer una mejor demostración y utilidad práctica.  
+
+---
+
+### Actividad 3: Botón SOS
+
+#### Objetivos específicos
+
+- Realizar el plan de trabajo y planos del circuito a usar.  
+- Realizar la lista de materiales.  
+- Construir y armar el dispositivo.  
+
+#### Indicadores de logro
+
+- ✅ **Logrado:** 3 o más personas construyen el dispositivo y lo usan diariamente.  
+- ⚠️ **Medianamente logrado:** 1 persona lo construye y lo usa.  
+- ❌ **No logrado:** nadie logra construirlo.
 
 ⸻
 <p align="center">
