@@ -141,7 +141,6 @@ El circuito y código fueron implementados exitosamente, con posibilidad de envi
   <img src="https://img.shields.io/badge/SASS-CC6699?logo=sass&logoColor=white">
   <img src="https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black">
-  <img src="https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white">
   <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white">
   <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white">
   <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white">
