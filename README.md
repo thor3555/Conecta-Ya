@@ -1,5 +1,5 @@
 # Conecta-Ya
-Conecta-Ya es un proyecto orientado a resolver un problema cotidiano: quedarnos sin batería en los momentos más importantes. La propuesta busca diseñar una solución práctica y accesible que permita a las personas mantener sus dispositivos conectados y cargados en cualquier lugar.
+Conecta-Ya es una web desarrollada como primera actividad del proyecto de física del año 2025 del liceo Pedro Poveda, esta está realizada con el fin de presentar, informar y prevenir sobre nuestra problemática, además de funcionar como una introducción al proyecto para el usuario.
 
 # 📘 Proyecto Conecta-Ya — Actividades de Física
 
@@ -228,39 +228,40 @@ El módulo **SIM808** obtiene la ubicación y se comunica con la placa **ESP32**
 
 ### Actividad 1: La página web
 
-Consideramos esta actividad como **lograda**, gracias a que mediante la herramienta de registro (*Google Forms*) pudimos recolectar **65 usuarios** que visitaron la página web.  
-Estas visitas son reales, ya que cada usuario debía visualizar la web para contabilizarse.  
+Con respecto a la primera actividad que tenía como fin el informar y concientizar sobre nuestra problemática, funcionando como introducción a nuestro proyecto de investigación, consideramos esta actividad como lograda gracias que mediante la herramienta de registro (google forms) pudimos recolectar la suma de 65 usuarios que visitan la página web.
 
-La página web es de contribución pública: cualquier persona puede incluir contribuciones para su posterior aprobación, fomentando la participación en *Conecta-Ya*.  
+Consideramos relevantes el hecho de que estas personas hayan visitado la página web, debido a que esto responde a nuestro objetivo de comunicar e informar, debido que a que 65 personas visualizaron la página y su contenido, este dato lo consideramos verídico debido a que el usuario para contabilizar su visita tuvo anteriormente pasar visualizar el contenido de la página.
+
+La página web es de contribución pública, cualquier persona puede incluir contribuciones para su posterior aprobación, esto con el fin de que si algún visitante desea ser parte de conecta ya sea posible. Acceder desde: https://github.com/thor3555/Conecta-Ya, este repositorio es de propiedad de conecta-ya.
+
+
 
 ---
 
 ### Actividad 2: Generador
 
-Consideramos que fue **medianamente lograda**, ya que logramos construir el dispositivo pero no generar la energía suficiente para encender el LED.  
+Con respecto a la segunda actividad consideramos que fue medianamente lograda, esto debido a poder construir el dispositivo de demostración pero no pudimos generar la cantidad necesaria de energía para que se pueda visualizar claramente, esto lo podemos atribuir a problemas en la construcción de este y el tiempo en solucionarlos que tuvimos, la herramienta usada como indicador fue una led conectada que se tenía  pensado usarla para demostrar el funcionamiento de este dispositivo.
 
-#### Mejoras posibles:
-1. Optimizar el diseño para hacerlo más eficiente y atractivo.  
-2. Mejorar el bobinado del cobre, aumentando la cantidad de vueltas y reduciendo espacios.  
-3. Implementar una **LED de bajo consumo**, visible con menor energía.  
+#¿Qué se podría mejorar de esta construcción? 
+Hay tres aspectos destacables para mejorar este dispositivo para que cumpla mejor su función.
+  El primero es el diseño este dispositivo tiene como objetivo ser una demostración por lo que el poder emplear un diseño no solo más eficiente sino que llamativo es un punto clave a mejorar en esta actividad. 
+  El segundo punto sería el bobinado del cobre, en el dispositivo presentado el bobinado resultó ser desprolijo y pobre, si podemos aumentar la cantidad de cobre alrededor de los imanes y la calidad de este bobinado es decir más hilos en mas poco espacio y cuidar minuciosamente el espacio entre ellos se lograra producir una mayor cantidad de energía
+  El tercer y el último punto está la implementación de una led de bajo consumo, en sí es el poder integrar esta al dispositivo , lo más recomendable ya que viene siendo una demostración y a la limitada y poca cantidad de energía que se puede producir es una led de bajo consumo, que sea capaz de producir luz clara y visible a una baja cantidad de energía
 
-Con estas mejoras, el generador podrá ofrecer una mejor demostración y utilidad práctica.  
+Mediante la implementación de estos tres puntos se debería ser capaz de producir una mejor demostración y funcionamiento ya sea practico del dispositivo como un mejor uso de este para el proyecto.
+ 
 
 ---
 
 ### Actividad 3: Botón SOS
 
-#### Objetivos específicos
+No logramos la realización del botón debido a dificultades económicas, ya que los componentes del botón son notoriamente caros. Para poder realizar la construcción se deberá contar con al menos unos (ej 5000$), en la cual se incluyen todos los materiales necesarios para el correcto funcionamiento, además se deberá descargar el código que se encuentra en github para configurar el botón y cumpla todas las funciones anteriormente mencionadas. Presentaremos debajo una guia para descargar el código e introducirlo en el botón sos a manera de mejorar esta presentación
 
-- Realizar el plan de trabajo y planos del circuito a usar.  
-- Realizar la lista de materiales.  
-- Construir y armar el dispositivo.  
+Consideraciones para mejorar la actividad, una de las que podríamos tomar son los materiales y el modelo , el optimizar lo más posibles estos como también plantear una reducción de costos hacia el dispositivo más posible y sencillo de hacer ya sea para cualquiera
+El segundo sería incluir una guia mas personal y el codigo presentando el codigo y una guía realizada y explicada a detalle por nosotros mejoraría notoriamente y simplifica el proceso de armado del dispositivo que demostró ser tedioso
+Y por último la presentación de una muestra de ejemplo que no solo lo acercaba más al producto final sino que ayudaría a entender el funcionamiento de este una vez terminado y sería algo mucho más llamativo para el público trayendo más atención siendo esto último algo beneficioso para el objetivo de esta actividad.
+Para medir la construcción del botón por parte de los usuarios, crearemos el #botón-sos-poveda para que suban contenido relacionada a la construcción del dispositivo u cualquier posible mejora al diseño usando el #.
 
-#### Indicadores de logro
-
-- ✅ **Logrado:** 3 o más personas construyen el dispositivo y lo usan diariamente.  
-- ⚠️ **Medianamente logrado:** 1 persona lo construye y lo usa.  
-- ❌ **No logrado:** nadie logra construirlo.
 
 ⸻
 <p align="center">
