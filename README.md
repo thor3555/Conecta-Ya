@@ -4,165 +4,167 @@ Conecta-Ya es una web desarrollada como primera actividad del proyecto de físic
 # 📘 Proyecto Conecta-Ya — Actividades de Física
 
 ---
-🌐 Actividad 1: Desarrollo de la Página Web Interactiva
+# 🌐 **Primera actividad**
 
-🎯 Objetivos Específicos
-	•	💻 Desarrollar una web interactiva e informativa y publicarla.
-	•	🗣️ Explicar y comunicar nuestra problemática mediante la web.
-	•	🌱 Plantear una experiencia interactiva que presente soluciones y concientice sobre la prevención del problema.
+## 🎯 **Objetivos específicos**
+- Desarrollar una web interactiva e informativa y publicarla  
+- Explicar y comunicar nuestra problemática mediante la web  
+- Plantear una experiencia interactiva que presente y muestre las posibles soluciones y concientizar sobre las formas de prevención de nuestro problema al publico  
 
-📝 Descripción
+## 📝 **Descripción**
+Para la elaboración de la web usaremos diversos lenguajes de programación y software que utilizaremos en conjunto con la información de nuestro proyecto de investigación, y mediante otros métodos e hipervínculos integrados ofreceremos una experiencia interactiva a nuestra problemática y llevaremos control y registro de los usuarios mediante las cookies, que instalan en el dispositivo del usuario un identificador que las almacena para recordar información sobre tu visita y mejorar la experiencia en línea, el cual es único para cada navegador, por lo tanto aunque el usuario cambie de ubicación no se va a registrar una nueva visita, esto nos acerca a un número de visitantes más exacto. 
 
-Para la elaboración de la web utilizamos diversos lenguajes de programación y software en conjunto con la información de nuestro proyecto de investigación.
-Mediante hipervínculos y elementos interactivos, ofrecemos una experiencia informativa y atractiva al público.
+## 💡 **Fundamentación**
+### ¿Cómo aporta a nuestro proyecto?
+Nos va a permitir generar conciencia e informar sobre nuestra problemática , como también mostrar y comunicar los datos recolectados por nuestra investigación y otras actividades, como ofrecer otras soluciones accesibles y asegurarnos de poder informar sobre la prevención de este problema, para realizarlo usaremos los siguiente programas, plataformas y lenguajes de programación: HTML un lenguaje marcado estándar y utilizado para estructurar y representar el contenido de las páginas web, CSS para definir la apariencia y el estilo de los documentos html, BOOTSTRAP un framework (conjuntos de herramientas de código y librerías ya diseñadas) de desarrollo web que combina los anteriores y JAVASCRIPT, programa utilizado para que las páginas web sean interactivas, SASS un preprocesador de CSS, GitHub la plataforma que permite tener el código en la nube para que parte del equipo pueda contribuir, GIT el control de versiones, y VERCEL la plataforma que nos permitirá publicarla.
 
-Además, implementamos cookies para registrar usuarios y obtener un número de visitantes más preciso. Cada cookie almacena un identificador único para recordar la visita, sin importar el cambio de ubicación del usuario.
+## 📊 **Indicadores de logros**
+- 🟢 Logrado: al menos 30 personas visiten la página.  
+- 🟡 Medianamente logrado: 20 personas visiten la página.   
+- 🔴 Insuficiente: que menos de 20 personas visiten la página.  
 
-💡 Fundamentación
+---
 
-Nos permite concientizar e informar sobre nuestra problemática, comunicar los datos recolectados, ofrecer soluciones accesibles y mostrar formas de prevención.
+# ⚙️ **Segunda actividad**
 
-🧩 Herramientas utilizadas:
-	•	HTML → estructura del contenido
-	•	CSS → estilo y diseño
-	•	Bootstrap → framework visual
-	•	JavaScript → interactividad
-	•	SASS → preprocesador de CSS
-	•	GitHub → colaboración en la nube
-	•	Git → control de versiones
-	•	Vercel → publicación de la web
+## 🔧 **Construcción y demostración mediante un generador**
 
-📊 Indicadores de Logro
-	•	🟢 Logrado: 30 o más personas visitan la página.
-	•	🟡 Medianamente logrado: 20 personas visitan la página.
-	•	🔴 Insuficiente: menos de 20 personas visitan la página.
+### 🎯 **Objetivos específicos**
+- Realizar esquema, planos generales y lista de materiales para llevar a cabo el generador.  
+- Construcción del generador y uso de los materiales.  
+- Uso y demostración del generador.  
 
-🏁 Resultados
+### 🧱 **Descripción**
+Para la construcción del generador usaremos los siguientes materiales:  
+- Una bobina hecha de hilo de cobre  
+- 15 pares de imanes de neodimio  
+- Tubos de PVC  
+- Lápices  
+- Cinta aislante.  
 
-Esta actividad fue lograda con éxito 🎉.
-Mediante Google Forms, registramos 65 usuarios que visitaron la página web, cumpliendo el objetivo de informar y comunicar.
-La web es de contribución pública y cualquiera puede participar mediante el repositorio:
-🔗 Conecta Ya - GitHub￼
+Y para la estructura utilizamos listones de madera.  
 
-⸻
+Nuestra construcción produce una cierta diferencia de potencial eléctrico al hacer variar el campo magnético, el cual usaremos para dar energía a una luz led.  
 
-⚙️ Actividad 2: Construcción del Generador Eléctrico
+### 💡 **Fundamentación**
+Un generador eléctrico es un dispositivo que convierte energía mecánica en energía eléctrica. Funciona gracias al principio de inducción electromagnética, descubierto por Michael Faraday, que dice que al mover un conductor dentro de un campo magnético se genera una corriente eléctrica, este fenómeno ocurre entre la bobina y los imanes de neodimio al aplicarle energía cinética media un eje con manivela, por otra parte los imanes son los encargados de generar un campo eléctrico, el cual existe en cualquier punto del espacio donde una carga de prueba, al colocarse, experimenta una fuerza eléctrica. La dirección del campo eléctrico en un punto coincide con la dirección de la fuerza que actuaría sobre una carga positiva situada en ese lugar. Para representar visualmente este campo, se utilizan líneas de campo eléctrico, las cuales indican su dirección y sentido; cada línea pasa por puntos donde el campo tiene la misma orientación.
 
-🎯 Objetivos Específicos
-	•	✏️ Realizar esquema, planos y lista de materiales.
-	•	🧰 Construir el generador.
-	•	💡 Demostrar su funcionamiento.
+Al aplicarle energía cinética con la manivela, el campo eléctrico varía en el tiempo según la cantidad de vueltas por segundos que demos, pudiendo generar un campo magnético. De manera recíproca, un campo magnético variable puede inducir una diferencia de potencial eléctrico, fenómeno conocido como inducción electromagnética. Este principio, descubierto por Michael Faraday (profundizaremos en él más adelante) demuestra que los campos eléctricos y magnéticos están estrechamente relacionados, formando parte de un mismo fenómeno físico que es el campo electromagnético. Gracias a esta interacción, la energía magnética puede transformarse en eléctrica, como ocurre en los generadores eléctricos.
 
-🧱 Descripción
+Por su parte, un campo magnético es el espacio que rodea a un imán o a una carga eléctrica en movimiento, dentro del cual se manifiestan fuerzas magnéticas. Es un campo vectorial, lo que significa que a cada punto del espacio le corresponde un vector que indica la dirección y el sentido del campo. En nuestro caso, utilizamos imanes de neodimio para generar este campo magnético, orientando todos los imanes con sus respectivos polos hacia la misma dirección, es decir, los polos norte hacia un lado y los polos sur hacia el otro. Más adelante se abordará con mayor detalle esta propiedad intrínseca de los campos magnéticos.
 
-Materiales utilizados:
-	•	Bobina de hilo de cobre
-	•	15 pares de imanes de neodimio
-	•	Tubos de PVC
-	•	Lápices ✏️
-	•	Cinta aislante
-	•	Estructura de listones de madera
+Una característica fundamental de los campos magnéticos es que son dipolares: siempre poseen un polo norte y un polo sur, también llamados positivo y negativo. A diferencia de los campos eléctricos, que pueden originarse a partir de cargas eléctricas aisladas, los campos magnéticos no existen con un solo polo. Por ello, sus líneas de campo son cerradas, saliendo del polo norte y regresando al polo sur. Fuera de este campo, no se manifiestan efectos magnéticos.
 
-El generador produce una diferencia de potencial eléctrico al variar el campo magnético, capaz de encender una luz LED.
+La ley de Faraday se mide en fem que significa fuerza electromotriz, que es un voltaje o diferencia de potencial eléctrico capaz de crear una corriente eléctrica. Se observa en forma experimental que un imán que se mantiene estacionario cerca de una espira de alambre conductor no induce una fem (y por lo tanto no produce energía). Sin embargo, si el imán se acerca a la espira, existirá una corriente en la misma, pero solo durante el movimiento, en nuestro caso el bobinado fue creado con hilos de cobre enrollados en lápices que funcionaban como columnas, posicionadas a la misma distancia entre sí.
+Hay otras formas de inducir una corriente en una espira estacionaria de alambre, que consiste en variar la corriente en otra espira cercana por un breve lapso de tiempo.
+para inducir corrientes en una espira o en un circuito completo (proceso que se llama inducción electromagnética), lo que importa es si cambia el campo magnético por la espira o circuito. Alrededor de 1830. Faraday determinó que el factor importante en la inducción electromagnética es la rapidez de cambio de la cantidad de líneas magnéticas que pasan por el área de la espira o el circuito. Esto es, descubrió que:
 
-💡 Fundamentación
+Se produce una fem inducida en una espira o en un circuito completo siempre que cambia la cantidad de líneas de campo magnético que pasan por el plano de la espira o del circuito.
 
-Un generador eléctrico convierte energía mecánica en energía eléctrica gracias al principio de inducción electromagnética descubierto por Michael Faraday.
-Al girar una bobina de cobre cerca de los imanes, se genera una corriente eléctrica.
+Esta ley significa que el campo magnético generado por la corriente inducida tiene una dirección que trata de evitar que cambie el flujo que pasa por la espira. Por ejemplo, si el flujo aumenta en la dirección x, el campo magnético generado por la corriente inducida tendrá la dirección -x. Este efecto tiende a anular el aumento de flujo, es decir, a oponerse al cambio. En esencia, el campo magnético generado por la corriente inducida trata de mantener el flujo magnético existente. Este efecto se conoce como “inercia electromagnética” por analogía de la tendencia que tienen los objetos a resistirse a los cambios en su velocidad.
 
-Los imanes de neodimio crean el campo magnético necesario, orientados con sus polos en la misma dirección (norte-sur).
-El cambio de flujo magnético induce una fuerza electromotriz (fem), es decir, un voltaje capaz de producir corriente.
+### 📊 **Indicadores de logros**
+- 🟢 Logrado: Consideramos como logrado explicar y definir claramente los planos. Además que el generador sea funcional y que se demuestre el funcionamiento visualmente mediante un led.  
+- 🟡 Medianamente logrado: Lograr explicarlo y construirlo pero que no se prenda el led y demostrarlo de otra manera.  
+- 🔴 No logrado: No lograr construirlo.  
 
-📊 Indicadores de Logro
-	•	🟢 Logrado: planos definidos y generador funcional (LED encendido).
-	•	🟡 Medianamente logrado: construido pero sin encender el LED.
-	•	🔴 No logrado: no se construyó.
+---
 
-🏁 Resultados
+# 📡 **Tercera actividad**
 
-La actividad fue medianamente lograda ⚙️.
-Se logró construir el dispositivo, pero no generar suficiente energía para encender el LED.
+## 🎯 **Objetivos específicos**
+- Realizar el plan de trabajo y planos del circuito a usar.  
+- Realizar la lista de Materiales a utilizar.  
+- Construir y armar el dispositivo.  
 
-🔧 Aspectos a mejorar
-	1.	Diseño: hacerlo más eficiente y visualmente atractivo.
-	2.	Bobinado: mayor cantidad y mejor calidad del enrollado de cobre.
-	3.	LED de bajo consumo: ideal para una demostración clara con poca energía.
+## 🧩 **Introducción**
+Vamos a construir un botón con el objetivo de responder a nuestra problemática. Para llevar a cabo esto utilizaremos los siguientes materiales. 
 
-Implementando estas mejoras se podrá obtener una demostración más funcional y profesional.
+### 🧱 **Materiales**
+- ESP32 (microcontroladores económicos de bajo consumo de energía)  
+- Sim 808 (tiene GSM/GPRS y GPS)  
+- Batería de litio  
 
-⸻
+**GSM:** (Sistema Global para las Comunicaciones Móviles), Permite realizar llamadas, enviar mensajes de texto (SMS) y acceder a servicios de datos.  
 
-🚨 Actividad 3: Construcción del Botón S.O.S
+**GPRS:** (Servicio General de Radio por Paquetes), permite la transferencia de datos por paquetes.  
 
-🎯 Objetivos Específicos
-	•	📋 Elaborar el plan de trabajo y planos del circuito.
-	•	⚙️ Crear la lista de materiales.
-	•	🛠️ Construir y ensamblar el dispositivo.
+**GPS:** (Sistema de Posicionamiento Global), es una red de satélites propiedad de Estados Unidos que permite a cualquier receptor en la Tierra determinar su ubicación precisa, velocidad y hora actual en cualquier momento y en cualquier condición climática, sin necesidad de suscripción.
 
-🧱 Materiales
-	•	ESP32 (microcontrolador de bajo consumo)
-	•	SIM 808 (módulo con GSM/GPRS y GPS)
-	•	Batería de litio
+Para construir esto utilizaremos un circuito eléctrico y código de programación para poder construir el dispositivo, que sea capaz solicitar ayuda inmediata de servicios de emergencia o contactos de confianza en caso de una situación de peligro. 
 
-📡 Componentes explicados
-	•	GSM: comunicación móvil (llamadas y SMS).
-	•	GPRS: envío de datos por paquetes.
-	•	GPS: posicionamiento global y ubicación precisa.
+Para realizar la construcción recomendamos ver la guía rápida de configuración del botón S.O.S.
+Y a manera de explicación recomendamos el siguiente video instructivo sobre su  armado, en este se muestran todo los recursos usados e inclusive adicionales necesarios para el ensamblaje Send Location & Make Call using SOS Button | IOT Projects | GPS Projects.
 
-💡 Descripción
+## 💡 **Fundamentación**
+La idea del botón S.O.S se origina en poder reemplazar la función primaria de la comunicación de la telefonía móvil: la comunicación vía mensaje. En el caso de que la telefonía falle 	(generalmente debido a la falta de batería en el dispositivo) este se convierte en el principal problema, aún mayor teniendo en cuenta la importancia social que se le da a la comunicación constante hoy en día. 
+Su función radica en enviar un SMS y la ubicación actual, indicando que el sujeto se encuentra en peligro o en una emergencia a un número establecido.
+El mecanismo funciona mediante la activación de un botón, luego se llamará a una función, la cual tiene como objetivo enviar el SMS y la ubicación, si no es posible debido a determinadas situaciones x, el botón siempre intentará enviar el SMS sin la ubicación. 
+El número seleccionado se debe ingresar antes de una situación de emergencia, esto debería ser cuando se haga la configuración del botón, la ubicación se recupera del módulo SIM 808, conectado a la placa principal ESP 32. Todo esto funciona gracias a una batería de litio, que le da la suficiente capacidad para el funcionamiento correcto y la suficiente autonomía.
 
-El botón S.O.S. envía un SMS con la ubicación del usuario a un número preconfigurado en caso de emergencia.
-Se activa mediante un botón y funciona gracias al módulo SIM808 conectado al ESP32, alimentado por una batería de litio.
+## 📊 **Indicadores de logros**
+- 🟢 Logrado: 3 o más personas lograron construir el dispositivo y llevarlo consigo diariamente.  
+- 🟡 Medianamente: una persona  logró construir y llevar consigo diariamente.  
+- 🔴 No logrado: Ninguna persona logró construirlo.  
 
-El objetivo es ofrecer ayuda inmediata ante una situación de peligro, incluso si el teléfono móvil no está disponible.
+---
 
-💬 Fundamentación
+# 🧭 **Guía rápida de configuración del botón SOS**
 
-El botón reemplaza la función básica del celular: comunicación rápida en emergencia.
-Su código permite enviar mensajes automáticos con ubicación.
-Si no puede enviar la ubicación, intentará al menos enviar el SMS de alerta.
+1. **Requisitos previos**
+   - Asegurarse de que el botón SOS esté ensamblado correctamente y conectado por USB a la computadora.  
+   - Tener instalado el Arduino IDE.  
+     Descargar desde: [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)
 
-La configuración del número de contacto se realiza durante la instalación inicial del dispositivo.
+2. **Descargar el código**
+   1. Entrar al repositorio de GitHub del proyecto. Descarga desde: [https://github.com/techiesms/SOS-button-using-A9G---XIAO-C3](https://github.com/techiesms/SOS-button-using-A9G---XIAO-C3)
+   2. Hacer clic en “Code → Download ZIP”.  
+   3. Descomprimir el archivo ZIP en una carpeta del escritorio.  
 
-⸻
+3. **Abrir el código en Arduino IDE**  
+   1. Dentro de la carpeta descargada, buscar el archivo `code.ino`  
+   2. Abrirlo haciendo doble clic o desde el IDE: Archivo/Abrir/code.ino  
 
-🧭 Guía Rápida de Configuración del Botón S.O.S.
-	1.	🔌 Requisitos previos
-	•	Botón ensamblado y conectado por USB.
-	•	Arduino IDE instalado → Descargar aquí￼
-	2.	⬇️ Descargar el código
-	•	Repositorio: GitHub - SOS Button￼
-	•	“Code → Download ZIP”
-	•	Descomprimir el archivo.
-	3.	📂 Abrir el código en Arduino IDE
-	•	Buscar code.ino
-	•	Abrir desde el IDE.
-	4.	⚙️ Seleccionar la placa y el puerto
-	•	Herramientas → Placa → (Arduino Uno/Nano, etc.)
-	•	Herramientas → Puerto → seleccionar el correspondiente (COM3, /dev/cu.usbmodem…).
-	5.	🚀 Subir el programa
-	•	Clic en “Subir”
-	•	Esperar el mensaje: “Subido correctamente”
-	6.	✅ Finalización
-	•	El botón ya está configurado y listo para funcionar.
-	•	Puede desconectarse del cable USB.
+4. **Seleccionar la placa y el puerto**  
+   En el menú superior del Arduino IDE:
+   - Ir a Herramientas/Placa: seleccionar el modelo correspondiente (por ejemplo Arduino Uno, Nano, etc.).  
+   - Ir a Herramientas/Puerto: elegir el puerto que aparece con el nombre de tu placa (por ejemplo COM3 en Windows o /dev/cu.usbmodem… en macOS).  
 
-⸻
+5. **Subir el programa**  
+   1. Hacer clic en el botón “Subir”.  
+   2. Esperar a que aparezca el mensaje “Subido correctamente” en la consola inferior.  
 
-🏁 Resultados
+6. **Finalización**  
+   El botón SOS ya tiene cargado el código y está listo para funcionar. Podés desconectarlo del cable USB.
 
-Esta actividad no fue lograda debido a limitaciones económicas 💰.
-El costo estimado para construirlo ronda los $5000, incluyendo todos los componentes.
+---
 
-🔧 Mejoras propuestas
-	1.	Optimización de materiales: buscar versiones más económicas y accesibles.
-	2.	Guía personalizada: crear una versión explicada por el equipo con ejemplos.
-	3.	Prototipo demostrativo: incluir una muestra para presentar el funcionamiento.
+# 🧩 **Resultados**
 
-💬 Comunidad
+## 🌍 **Actividad 1: La página web**
+Con respecto a la primera actividad que tenía como fin el informar y concientizar sobre nuestra problemática, funcionando como introducción a nuestro proyecto de investigación, consideramos esta actividad como lograda gracias que mediante la herramienta de registro (google forms) pudimos recolectar la suma de 65 usuarios que visitan la página web.  
+Consideramos relevantes el hecho de que estas personas hayan visitado la página web, debido a que esto responde a nuestro objetivo de comunicar e informar, debido que a que 65 personas visualizaron la página y su contenido, este dato lo consideramos verídico debido a que el usuario para contabilizar su visita tuvo anteriormente pasar visualizar el contenido de la página.  
+La página web es de contribución pública, cualquier persona puede incluir contribuciones para su posterior aprobación, esto con el fin de que si algún visitante desea ser parte de conecta ya sea posible. Acceder desde: [https://github.com/thor3555/Conecta-Ya](https://github.com/thor3555/Conecta-Ya), este repositorio es de propiedad de conecta-ya.
 
-Para compartir avances, mejoras o construcciones del dispositivo, se propone el hashtag:
-👉 #botón-sos-poveda
+---
+
+## ⚙️ **Actividad 2: Generador**
+Con respecto a la segunda actividad consideramos que fue medianamente lograda, esto debido a poder construir el dispositivo de demostración pero no pudimos generar la cantidad necesaria de energía para que se pueda visualizar claramente, esto lo podemos atribuir a problemas en la construcción de este y el tiempo en solucionarlos que tuvimos, la herramienta usada como indicador fue una led conectada que se tenía  pensado usarla para demostrar el funcionamiento de este dispositivo.  
+**¿Qué se podría mejorar de esta construcción?** Hay tres aspectos destacables para mejorar este dispositivo para que cumpla mejor su función.  
+1️⃣ El primero es el diseño este dispositivo tiene como objetivo ser una demostración por lo que el poder emplear un diseño no solo más eficiente sino que llamativo es un punto clave a mejorar en esta actividad.   
+2️⃣ El segundo punto sería el bobinado del cobre, en el dispositivo presentado el bobinado resultó ser desprolijo y pobre, si podemos aumentar la cantidad de cobre alrededor de los imanes y la calidad de este bobinado es decir más hilos en mas poco espacio y cuidar minuciosamente el espacio entre ellos se lograra producir una mayor cantidad de energía.  
+3️⃣ El tercer y el último punto está la implementación de una led de bajo consumo, en sí es el poder integrar esta al dispositivo , lo más recomendable ya que viene siendo una demostración y a la limitada y poca cantidad de energía que se puede producir es una led de bajo consumo, que sea capaz de producir luz clara y visible a una baja cantidad de energía.  
+Mediante la implementación de estos tres puntos se debería ser capaz de producir una mejor demostración y funcionamiento ya sea practico del dispositivo como un mejor uso de este para el proyecto.
+
+---
+
+## 🚨 **Actividad 3**
+No logramos la realización del botón debido a dificultades económicas, ya que los componentes del botón son notoriamente caros. Para poder realizar la construcción se deberá contar con al menos unos (ej 5000$), en la cual se incluyen todos los materiales necesarios para el correcto funcionamiento, además se deberá descargar el código que se encuentra en github para configurar el botón y cumpla todas las funciones anteriormente mencionadas. Presentaremos debajo una guia para descargar el código e introducirlo en el botón sos a manera de mejorar esta presentación.  
+
+**Consideraciones para mejorar la actividad**, una de las que podríamos tomar son los materiales y el modelo , el optimizar lo más posibles estos como también plantear una reducción de costos hacia el dispositivo más posible y sencillo de hacer ya sea para cualquiera.  
+El segundo sería incluir una guia mas personal y el codigo presentando el codigo y una guía realizada y explicada a detalle por nosotros mejoraría notoriamente y simplifica el proceso de armado del dispositivo que demostró ser tedioso.  
+Y por último la presentación de una muestra de ejemplo que no solo lo acercaba más al producto final sino que ayudaría a entender el funcionamiento de este una vez terminado y sería algo mucho más llamativo para el público trayendo más atención siendo esto último algo beneficioso para el objetivo de esta actividad.  
+Para medir la construcción del botón por parte de los usuarios, crearemos el **#botón-sos-poveda** para que suban contenido relacionada a la construcción del dispositivo u cualquier posible mejora al diseño usando el #.
 
 
 
