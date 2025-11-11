@@ -6,6 +6,8 @@ Conecta-Ya es una web desarrollada como primera actividad del proyecto de físic
 ---
 # 🌐 **Primera actividad**
 
+## Web Conecta Ya
+
 ## 🎯 **Objetivos específicos**
 - Desarrollar una web interactiva e informativa y publicarla  
 - Explicar y comunicar nuestra problemática mediante la web  
@@ -71,6 +73,8 @@ Esta ley significa que el campo magnético generado por la corriente inducida ti
 ---
 
 # 📡 **Tercera actividad**
+
+## Botón SOS
 
 ## 🎯 **Objetivos específicos**
 - Realizar el plan de trabajo y planos del circuito a usar.  
